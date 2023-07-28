@@ -332,7 +332,7 @@ template {
     Base
 ============= */
 body {
-  background-color: aliceblue;
+  background-color: var(--white);
 }
 
 /* =============
