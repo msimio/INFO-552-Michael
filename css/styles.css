@@ -13,6 +13,11 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --green: #74ccd1
+  --darkgreen: #2b797c
+  --grey: #f0f0f0
+  --lightgrey: #fafafa
+  --charcoal: #404040 ;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -331,6 +336,24 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: red;
+}
+
+.content-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 16px auto 16px;
+  grid-template-columns: 16px auto 16px;
+      grid-template-areas: ". content .";
+}
+.content-grid .content-grid-item {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  background-color: purple;
+  grid-area: content;
+}
+
 /* =============
     Typography
 ============= */
@@ -360,9 +383,34 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  background-color: aquamarine;
+}
+
 /* =============
     Header
 ============= */
 /* =============
     Footer
+============= */
+footer {
+  background-color: gray;
+}
+footer #footerbottom {
+  background-color: blue;
+}
+
+/* =============
+    Index
+============= */
+#index a:link, #index a:visited {
+  color: green;
+  text-decoration: none;
+}
+#index a:hover, #index a:active {
+  color: red;
+}
+
+/* =============
+    Apps
 ============= */

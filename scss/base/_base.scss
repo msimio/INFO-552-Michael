@@ -3,3 +3,27 @@
 ============= */
 
 
+body
+{
+    background-color: (red);
+
+
+}
+
+.content-grid
+{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    // Padding hardcoded 
+    grid-template-areas: ". content .";
+
+    .content-grid-item
+    {
+        background-color: purple;
+        grid-area: content;
+
+        
+    }
+
+
+}
