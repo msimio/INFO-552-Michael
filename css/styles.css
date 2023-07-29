@@ -347,6 +347,33 @@ body {
   grid-template-columns: 16px auto 16px;
       grid-template-areas: ". content .";
 }
+@media (min-width: 576px) {
+  .content-grid {
+    background-color: orange;
+  }
+}
+@media (min-width: 768px) {
+  .content-grid {
+    background-color: yellow;
+  }
+}
+@media (min-width: 1024px) {
+  .content-grid {
+    background-color: red;
+  }
+}
+@media (min-width: 1200px) {
+  .content-grid {
+    background-color: blue;
+  }
+}
+@media (min-width: 1440px) {
+  .content-grid {
+    -ms-grid-columns: auto 1440 auto;
+    grid-template-columns: auto 1440 auto;
+    background-color: purple;
+  }
+}
 .content-grid .content-grid-item {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
@@ -409,6 +436,10 @@ footer #footerbottom {
 }
 #index a:hover, #index a:active {
   color: red;
+}
+
+#hero {
+  width: 100%;
 }
 
 /* =============

@@ -17,6 +17,37 @@ body
     // Padding hardcoded 
     grid-template-areas: ". content .";
 
+    @include sm
+    {
+        
+        background-color: orange;
+    }
+
+
+    @include md
+    {
+        
+        background-color: yellow;
+    }
+
+    @include lg
+    {
+        
+        background-color: red;
+    }
+
+    @include xl
+    {
+        
+        background-color: blue;
+    }
+
+    @include xxl
+    {
+        grid-template-columns: auto 1440 auto;
+        background-color: purple;
+    }
+
     .content-grid-item
     {
         background-color: purple;
