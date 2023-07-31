@@ -336,6 +336,49 @@ body {
   background-color: whitesmoke;
 }
 
+#grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 24px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+      grid-template-areas: "p  b";
+}
+
+.grid-item {
+  height: 100%;
+}
+
+#photo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  background-color: #d24545;
+  grid-area: p;
+}
+
+#bio {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  background-color: #d2cd45;
+  grid-area: b;
+}
+
+#grid-container2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 16px auto 16px;
+  grid-template-rows: 16px auto 16px;
+      grid-template-areas: ". content .";
+}
+
+.grid-item {
+  height: 100%;
+}
+
+#fcenter {
+  background-color: #d24545;
+}
+
 /* =============
     Typography
 ============= */

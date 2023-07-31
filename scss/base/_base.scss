@@ -4,3 +4,54 @@
 
 
 body{background-color: whitesmoke;}
+
+
+#grid-container 
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  
+    gap: 24px;
+    grid-template-areas:"p  b"
+
+}
+   
+  
+
+  .grid-item {
+    height: 100%;
+  }
+  
+  #photo {
+    background-color: #d24545;
+    grid-area: p;
+  }
+  
+  #bio {
+    background-color: #d2cd45;
+    grid-area: b;
+  }
+
+  
+  
+  
+  #grid-container2 
+{
+    display: grid;
+    grid-template-rows: 16px auto 16px;
+    // Padding hardcoded 
+    grid-template-areas: ". content .";
+
+}
+   
+  
+
+  .grid-item {
+    height: 100%;
+  }
+  
+  #fcenter
+   {
+    background-color: #d24545;
+  
+  }
