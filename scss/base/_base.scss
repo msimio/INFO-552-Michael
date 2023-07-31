@@ -35,7 +35,7 @@ body{background-color: whitesmoke;}
   
   
   
-  #grid-container2 
+#grid-container2 
 {
     display: grid;
     grid-template-rows: 16px auto 16px;
@@ -55,3 +55,11 @@ body{background-color: whitesmoke;}
     background-color: #d24545;
   
   }
+
+  #navi ul{
+    list-style: none;
+  }
+  #navi li{
+    display: inline;
+  }
+

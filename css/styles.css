@@ -379,6 +379,14 @@ body {
   background-color: #d24545;
 }
 
+#navi ul {
+  list-style: none;
+}
+
+#navi li {
+  display: inline;
+}
+
 /* =============
     Typography
 ============= */
@@ -411,6 +419,11 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background-color: black;
+  color: whitesmoke;
+}
+
 /* =============
     Footer
 ============= */
