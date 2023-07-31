@@ -339,9 +339,8 @@ body {
 #grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 24px 1fr;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
       grid-template-areas: "p  b";
 }
 
@@ -358,33 +357,13 @@ body {
 
 #bio {
   -ms-grid-row: 1;
-  -ms-grid-column: 3;
+  -ms-grid-column: 2;
   background-color: #d2cd45;
   grid-area: b;
 }
 
-#grid-container2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 16px auto 16px;
-  grid-template-rows: 16px auto 16px;
-      grid-template-areas: ". content .";
-}
-
-.grid-item {
-  height: 100%;
-}
-
-#fcenter {
-  background-color: #d24545;
-}
-
-#navi ul {
-  list-style: none;
-}
-
-#navi li {
-  display: inline;
+#hero {
+  width: 100%;
 }
 
 /* =============

@@ -9,57 +9,47 @@ body{background-color: whitesmoke;}
 #grid-container 
 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    //grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 50% 50%;
+    //Why do I need grid-template-areas? Won't go automatically 
   
-    gap: 24px;
+    //gap: 24px;
     grid-template-areas:"p  b"
 
 }
    
   
 
-  .grid-item {
+  .grid-item 
+  {
     height: 100%;
   }
   
-  #photo {
+  #photo 
+  {
     background-color: #d24545;
     grid-area: p;
   }
   
-  #bio {
+  #bio 
+  {
     background-color: #d2cd45;
     grid-area: b;
   }
 
-  
-  
-  
-#grid-container2 
-{
-    display: grid;
-    grid-template-rows: 16px auto 16px;
-    // Padding hardcoded 
-    grid-template-areas: ". content .";
 
+
+#hero
+{
+    width: 100%;
 }
+
+  
+  
+  
+
    
   
 
-  .grid-item {
-    height: 100%;
-  }
-  
-  #fcenter
-   {
-    background-color: #d24545;
-  
-  }
 
-  #navi ul{
-    list-style: none;
-  }
-  #navi li{
-    display: inline;
-  }
 
