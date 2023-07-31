@@ -13,6 +13,7 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --purple: #8f5cf7 ;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -332,7 +333,7 @@ template {
     Base
 ============= */
 body {
-  background-color: aliceblue;
+  background-color: whitesmoke;
 }
 
 /* =============
@@ -370,3 +371,7 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: black;
+  color: whitesmoke;
+}
