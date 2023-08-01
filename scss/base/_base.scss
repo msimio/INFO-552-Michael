@@ -20,22 +20,55 @@ body{background-color: whitesmoke;}
    
   
 
-  .grid-item 
-  {
+.grid-item 
+{
     height: 100%;
-  }
+}
   
-  #photo 
-  {
+#photo 
+{
     background-color: #d24545;
     grid-area: p;
-  }
+}
   
-  #bio 
-  {
+#bio 
+{
     background-color: #d2cd45;
     grid-area: b;
-  }
+}
+
+
+#navi
+{
+  
+      a:link, a:visited
+      {
+          color: var(--purple);
+          text-decoration: none;
+  
+      }
+      a:hover, a:active
+      {
+          color: whitesmoke;
+      }
+  
+}
+
+#title
+{
+  
+      a:link, a:visited
+      {
+          color: var(--purple);
+          text-decoration: none;
+  
+      }
+      a:hover, a:active
+      {
+          color: whitesmoke;
+      }
+  
+}
 
 
 
