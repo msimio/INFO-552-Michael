@@ -40,6 +40,17 @@ body{background-color: whitesmoke;}
 
 #navi
 {
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    justify-content: space-around;
+    
+ 
+
+    
+
+        
   
       a:link, a:visited
       {
@@ -53,6 +64,31 @@ body{background-color: whitesmoke;}
       }
   
 }
+
+#navi2
+{
+    
+    
+ 
+
+    
+
+        
+  
+      a:link, a:visited
+      {
+          color: var(--purple);
+          text-decoration: none;
+  
+      }
+      a:hover, a:active
+      {
+          color: rgb(239, 92, 227);
+      }
+  
+}
+
+
 
 #title
 {

@@ -363,12 +363,31 @@ body {
   grid-area: b;
 }
 
+#navi {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
 #navi a:link, #navi a:visited {
   color: var(--purple);
   text-decoration: none;
 }
 #navi a:hover, #navi a:active {
   color: whitesmoke;
+}
+
+#navi2 a:link, #navi2 a:visited {
+  color: var(--purple);
+  text-decoration: none;
+}
+#navi2 a:hover, #navi2 a:active {
+  color: rgb(239, 92, 227);
 }
 
 #title a:link, #title a:visited {
