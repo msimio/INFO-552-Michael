@@ -461,6 +461,14 @@ body {
   color: whitesmoke;
 }
 
+#title2 a:link, #title2 a:visited {
+  color: var(--purple);
+  text-decoration: none;
+}
+#title2 a:hover, #title2 a:active {
+  color: whitesmoke;
+}
+
 #hero {
   width: 100%;
 }

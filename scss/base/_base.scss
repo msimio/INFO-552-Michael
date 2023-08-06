@@ -182,6 +182,22 @@ body{background-color: whitesmoke;}
   
 }
 
+#title2
+{
+  
+      a:link, a:visited
+      {
+          color: var(--purple);
+          text-decoration: none;
+  
+      }
+      a:hover, a:active
+      {
+          color: whitesmoke;
+      }
+  
+}
+
 
 
 #hero
