@@ -359,6 +359,18 @@ body {
       grid-template-areas: "c  e";
 }
 
+#grid-container3 {
+  background-color: black;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+      grid-template-areas: "t v d";
+}
+
 #container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -394,6 +406,24 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#tm {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: t;
+}
+
+#validator {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: v;
+}
+
+#drexelcci {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: d;
 }
 
 #contact {

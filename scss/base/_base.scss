@@ -38,6 +38,23 @@ body{background-color: whitesmoke;}
 
 }
 
+#grid-container3
+{
+    background-color: black;
+    display: grid;
+    //grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 33% 33% 33%;
+    //Why do I need grid-template-areas? Won't go automatically 
+
+    align-items: baseline;
+  
+
+    //gap: 24px;
+    grid-template-areas:"t v d"
+
+
+}
+
 #container {
     display: flex;
     
@@ -68,6 +85,29 @@ body{background-color: whitesmoke;}
     grid-area: b;
     display: flex;
     align-items: center;
+}
+
+#tm
+{
+    
+    grid-area: t;
+   
+}
+
+#validator
+{
+
+
+    grid-area: v;
+
+}
+
+#drexelcci 
+{
+    
+
+    grid-area: d;
+  
 }
 
 #contact 
