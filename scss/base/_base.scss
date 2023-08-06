@@ -12,11 +12,40 @@ body{background-color: whitesmoke;}
     //grid-template-columns: repeat(2, 1fr);
     grid-template-columns: 50% 50%;
     //Why do I need grid-template-areas? Won't go automatically 
+
+    align-items: center;
   
+
     //gap: 24px;
     grid-template-areas:"p  b"
 
+
 }
+
+#grid-container2
+{
+    display: grid;
+    //grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 50% 50%;
+    //Why do I need grid-template-areas? Won't go automatically 
+
+    align-items: center;
+  
+
+    //gap: 24px;
+    grid-template-areas:"c  e"
+
+
+}
+
+#container {
+    display: flex;
+    
+    
+    justify-content: center;
+    align-items: center;
+
+  }
    
   
 
@@ -27,14 +56,38 @@ body{background-color: whitesmoke;}
   
 #photo 
 {
-    background-color: #d24545;
+    background-color: black;
     grid-area: p;
 }
   
 #bio 
 {
-    background-color: #d2cd45;
+    background-color: black;
+    color: whitesmoke;
+
     grid-area: b;
+    display: flex;
+    align-items: center;
+}
+
+#contact 
+{
+    background-color: black;
+    color: whitesmoke;
+
+    grid-area: c;
+    display: flex;
+    align-items: center;
+}
+
+#email
+{
+    background-color: black;
+    color: whitesmoke;
+
+    grid-area: e;
+    
+   
 }
 
 
@@ -66,6 +119,29 @@ body{background-color: whitesmoke;}
 }
 
 #navi2
+{
+    
+    
+ 
+
+    
+
+        
+  
+      a:link, a:visited
+      {
+          color: var(--purple);
+          text-decoration: none;
+  
+      }
+      a:hover, a:active
+      {
+          color: rgb(239, 92, 227);
+      }
+  
+}
+
+#titlehov
 {
     
     
