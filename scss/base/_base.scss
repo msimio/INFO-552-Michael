@@ -41,9 +41,11 @@ body{background-color: whitesmoke;}
 #grid-container3
 {
     background-color: black;
+    margin: 0;
     display: grid;
     //grid-template-columns: repeat(2, 1fr);
     grid-template-columns: 33% 33% 33%;
+    
     //Why do I need grid-template-areas? Won't go automatically 
 
     align-items: baseline;
@@ -69,6 +71,7 @@ body{background-color: whitesmoke;}
 .grid-item 
 {
     height: 100%;
+
 }
   
 #photo 
@@ -91,6 +94,7 @@ body{background-color: whitesmoke;}
 {
     
     grid-area: t;
+    margin: 0;
    
 }
 
@@ -99,6 +103,7 @@ body{background-color: whitesmoke;}
 
 
     grid-area: v;
+    margin: 0;
 
 }
 
@@ -107,6 +112,9 @@ body{background-color: whitesmoke;}
     
 
     grid-area: d;
+    margin: 0;
+
+
   
 }
 
@@ -243,6 +251,27 @@ body{background-color: whitesmoke;}
 #hero
 {
     width: 100%;
+}
+
+
+#section-1
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "t v d";
+    align-items: center;
+    margin: 0;
+  
+
+    
+
+
+    
+
+
+  
+    
+    
 }
 
   

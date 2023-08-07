@@ -361,6 +361,7 @@ body {
 
 #grid-container3 {
   background-color: black;
+  margin: 0;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 33% 33% 33%;
@@ -412,18 +413,36 @@ body {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: t;
+  margin: 0;
+}
+
+#section-1 > #tm {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
 }
 
 #validator {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: v;
+  margin: 0;
+}
+
+#section-1 > #validator {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
 }
 
 #drexelcci {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: d;
+  margin: 0;
+}
+
+#section-1 > #drexelcci {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
 }
 
 #contact {
@@ -501,6 +520,18 @@ body {
 
 #hero {
   width: 100%;
+}
+
+#section-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "t v d";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
 }
 
 /* =============
