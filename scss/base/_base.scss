@@ -14,7 +14,6 @@ body{background-color: whitesmoke;}
     //Why do I need grid-template-areas? Won't go automatically 
 
     align-items: center;
-  
 
     //gap: 24px;
     grid-template-areas:"p  b"
@@ -38,46 +37,24 @@ body{background-color: whitesmoke;}
 
 }
 
-#grid-container3
-{
-    background-color: black;
-    margin: 0;
-    display: grid;
-    //grid-template-columns: repeat(2, 1fr);
-    grid-template-columns: 33% 33% 33%;
-    
-    //Why do I need grid-template-areas? Won't go automatically 
-
-    align-items: baseline;
-  
-
-    //gap: 24px;
-    grid-template-areas:"t v d"
-
-
-}
-
-#container {
-    display: flex;
-    
-    
-    justify-content: center;
-    align-items: center;
-
-  }
-   
-  
-
 .grid-item 
 {
     height: 100%;
 
+}
+
+
+
+#hero
+{
+    width: 100%;
 }
   
 #photo 
 {
     background-color: black;
     grid-area: p;
+    width: 100%;
 }
   
 #bio 
@@ -189,35 +166,9 @@ body{background-color: whitesmoke;}
   
 }
 
-#titlehov
+.hftitles
 {
-    
-    
- 
-
-    
-
-        
-  
-      a:link, a:visited
-      {
-          color: var(--purple);
-          text-decoration: none;
-  
-      }
-      a:hover, a:active
-      {
-          color: rgb(239, 92, 227);
-      }
-  
-}
-
-
-
-#title
-{
-  
-      a:link, a:visited
+    a:link, a:visited
       {
           color: var(--purple);
           text-decoration: none;
@@ -227,31 +178,9 @@ body{background-color: whitesmoke;}
       {
           color: whitesmoke;
       }
-  
+
 }
 
-#title2
-{
-  
-      a:link, a:visited
-      {
-          color: var(--purple);
-          text-decoration: none;
-  
-      }
-      a:hover, a:active
-      {
-          color: whitesmoke;
-      }
-  
-}
-
-
-
-#hero
-{
-    width: 100%;
-}
 
 
 #section-1
@@ -261,16 +190,7 @@ body{background-color: whitesmoke;}
     grid-template-areas: "t v d";
     align-items: center;
     margin: 0;
-  
 
-    
-
-
-    
-
-
-  
-    
     
 }
 
