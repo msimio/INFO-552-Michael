@@ -14,7 +14,9 @@ html {
   --black: #000000;
   --black2: #00000099;
   --white: #ffffff;
-  --purple: #8f5cf7 ;
+  --purple: #8f5cf7;
+  --blue: #07294D;
+  --yellow:#FFC600;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -391,15 +393,15 @@ body {
 #photo {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  background-color: black;
+  background-color: var(--blue);
   grid-area: p;
 }
 
 #bio {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
-  background-color: black;
-  color: whitesmoke;
+  background-color: var(--blue);
+  color: var(--yellow);
   grid-area: b;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -479,43 +481,43 @@ body {
       justify-content: space-around;
 }
 #navi a:link, #navi a:visited {
-  color: var(--purple);
+  color: var(--blue);
   text-decoration: none;
 }
 #navi a:hover, #navi a:active {
-  color: whitesmoke;
+  color: var(--yellow);
 }
 
 #navi2 a:link, #navi2 a:visited {
-  color: var(--purple);
+  color: var(--blue);
   text-decoration: none;
 }
 #navi2 a:hover, #navi2 a:active {
-  color: rgb(239, 92, 227);
+  color: var(--yellow);
 }
 
 #titlehov a:link, #titlehov a:visited {
-  color: var(--purple);
+  color: var(--blue);
   text-decoration: none;
 }
 #titlehov a:hover, #titlehov a:active {
-  color: rgb(239, 92, 227);
+  color: var(--yellow);
 }
 
 #title a:link, #title a:visited {
-  color: var(--purple);
+  color: var(--blue);
   text-decoration: none;
 }
 #title a:hover, #title a:active {
-  color: whitesmoke;
+  color: var(--yellow);
 }
 
 #title2 a:link, #title2 a:visited {
-  color: var(--purple);
+  color: var(--blue);
   text-decoration: none;
 }
 #title2 a:hover, #title2 a:active {
-  color: whitesmoke;
+  color: var(--yellow);
 }
 
 #hero {
@@ -567,14 +569,14 @@ textarea {
     Header
 ============= */
 header {
-  background-color: black;
-  color: whitesmoke;
+  background-color: whitesmoke;
+  color: black;
 }
 
 /* =============
     Footer
 ============= */
 footer {
-  background-color: black;
-  color: whitesmoke;
+  background-color: whitesmoke;
+  color: black;
 }

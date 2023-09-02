@@ -76,14 +76,14 @@ body{background-color: whitesmoke;}
   
 #photo 
 {
-    background-color: black;
+    background-color: var(--blue);
     grid-area: p;
 }
   
 #bio 
 {
-    background-color: black;
-    color: whitesmoke;
+    background-color: var(--blue);
+    color: var(--yellow);
 
     grid-area: b;
     display: flex;
@@ -155,13 +155,13 @@ body{background-color: whitesmoke;}
   
       a:link, a:visited
       {
-          color: var(--purple);
+          color: var(--blue);
           text-decoration: none;
   
       }
       a:hover, a:active
       {
-          color: whitesmoke;
+        color: var(--yellow);
       }
   
 }
@@ -178,13 +178,13 @@ body{background-color: whitesmoke;}
   
       a:link, a:visited
       {
-          color: var(--purple);
+          color: var(--blue);
           text-decoration: none;
   
       }
       a:hover, a:active
       {
-          color: rgb(239, 92, 227);
+          color: var(--yellow);
       }
   
 }
@@ -201,13 +201,13 @@ body{background-color: whitesmoke;}
   
       a:link, a:visited
       {
-          color: var(--purple);
+          color: var(--blue);
           text-decoration: none;
   
       }
       a:hover, a:active
       {
-          color: rgb(239, 92, 227);
+          color: var(--yellow);
       }
   
 }
@@ -219,13 +219,13 @@ body{background-color: whitesmoke;}
   
       a:link, a:visited
       {
-          color: var(--purple);
+          color: var(--blue);
           text-decoration: none;
   
       }
       a:hover, a:active
       {
-          color: whitesmoke;
+        color: var(--yellow);
       }
   
 }
@@ -235,13 +235,13 @@ body{background-color: whitesmoke;}
   
       a:link, a:visited
       {
-          color: var(--purple);
+          color: var(--blue);
           text-decoration: none;
   
       }
       a:hover, a:active
       {
-          color: whitesmoke;
+        color: var(--yellow);
       }
   
 }
