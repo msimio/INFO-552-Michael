@@ -350,6 +350,32 @@ body {
       grid-template-areas: "p  b";
 }
 
+#grid-container-card {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 5px solid var(--blue);
+  margin: 10px;
+  padding: 10px;
+      grid-template-areas: "d sd sd";
+}
+
+#grid-container-blog {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+  border: 5px solid var(--blue);
+  margin: 10px;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+      grid-template-areas: "d sd";
+}
+
 #grid-container2 {
   display: -ms-grid;
   display: grid;
@@ -411,6 +437,60 @@ body {
           align-items: center;
 }
 
+#date {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  background-color: whitesmoke;
+  color: var(--blue);
+  margin: 10px;
+  border: 2px dotted var(--yellow);
+  grid-area: d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#grid-container-blog > #date {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+#grid-container3 > #date {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+#section-1 > #date {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+#description {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  background-color: whitesmoke;
+  color: var(--blue);
+  margin: 10px;
+  border: 2px dotted var(--yellow);
+  grid-area: sd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#grid-container-blog > #description {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+}
+
 #tm {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -437,9 +517,19 @@ body {
 
 #drexelcci {
   -ms-grid-row: 1;
-  -ms-grid-column: 3;
+  -ms-grid-column: 1;
   grid-area: d;
   margin: 0;
+}
+
+#grid-container-blog > #drexelcci {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+#grid-container3 > #drexelcci {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
 }
 
 #section-1 > #drexelcci {
