@@ -141,6 +141,17 @@ body{background-color: whitesmoke;}
     margin: 10px;
     border: 2px dotted var(--yellow);
 
+    a:link, a:visited
+      {
+          color: var(--blue);
+          text-decoration: none;
+  
+      }
+      a:hover, a:active
+      {
+        color: var(--yellow);
+      }
+
 
     grid-area: d;
     display: flex;

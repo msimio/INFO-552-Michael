@@ -467,6 +467,13 @@ body {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
 }
+#date a:link, #date a:visited {
+  color: var(--blue);
+  text-decoration: none;
+}
+#date a:hover, #date a:active {
+  color: var(--yellow);
+}
 
 #description {
   -ms-grid-row: 1;
