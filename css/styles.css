@@ -682,12 +682,36 @@ textarea {
 /* =============
     Navigation
 ============= */
+.show-menu {
+  display: block !important;
+}
+
+nav {
+  display: none;
+}
+
 /* =============
     Header
 ============= */
 header {
-  background-color: whitesmoke;
-  color: black;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "burger" "nav";
+  padding: 16px;
+  position: fixed;
+  width: 100%;
+  background-color: var(--gray);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
+          box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
+  top: 0;
+  left: 0;
+}
+@media (min-width: 1024px) {
+  header {
+        grid-template-areas: "logo nav";
+  }
 }
 
 /* =============
