@@ -694,9 +694,6 @@ nav {
     Header
 ============= */
 header {
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "burger" "nav";
   padding: 16px;
   position: fixed;
   width: 100%;
