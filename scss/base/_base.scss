@@ -14,6 +14,22 @@ body{background-color: whitesmoke;}
     //Why do I need grid-template-areas? Won't go automatically 
 
     align-items: center;
+    background-color: black;
+
+    //gap: 24px;
+    grid-template-areas:"p  b"
+
+
+}
+
+#nav-container 
+{
+    display: grid;
+    //grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 50% 50%;
+    //Why do I need grid-template-areas? Won't go automatically 
+
+    align-items: center;
 
     //gap: 24px;
     grid-template-areas:"p  b"
