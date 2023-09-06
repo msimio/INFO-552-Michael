@@ -268,14 +268,23 @@ body{background-color: whitesmoke;}
 
 #navi2
 {
-    
-    
- 
 
-    
-
-        
+      a:link, a:visited
+      {
+          color: var(--blue);
+          text-decoration: none;
   
+      }
+      a:hover, a:active
+      {
+          color: var(--pink);
+      }
+  
+}
+
+#navi3
+{
+
       a:link, a:visited
       {
           color: var(--blue);
@@ -325,10 +334,11 @@ body{background-color: whitesmoke;}
       }
       a:hover, a:active
       {
-        color: var(--yellow);
-      }
-  
+        color: var(--pink)
+    }
 }
+  
+    
 
 #title2
 {

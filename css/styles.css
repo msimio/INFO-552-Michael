@@ -17,6 +17,7 @@ html {
   --purple: #8f5cf7;
   --blue: #07294D;
   --yellow:#FFC600;
+  --pink:#ff99cc ;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -610,6 +611,14 @@ body {
   text-decoration: none;
 }
 #navi2 a:hover, #navi2 a:active {
+  color: var(--pink);
+}
+
+#navi3 a:link, #navi3 a:visited {
+  color: var(--blue);
+  text-decoration: none;
+}
+#navi3 a:hover, #navi3 a:active {
   color: var(--yellow);
 }
 
@@ -626,7 +635,7 @@ body {
   text-decoration: none;
 }
 #title a:hover, #title a:active {
-  color: var(--yellow);
+  color: var(--pink);
 }
 
 #title2 a:link, #title2 a:visited {
@@ -687,6 +696,7 @@ textarea {
 }
 
 nav {
+  background-color: var(--yellow);
   display: none;
 }
 
@@ -695,7 +705,7 @@ nav {
 ============= */
 header {
   padding: 16px;
-  position: fixed;
+  position: static;
   width: 100%;
   background-color: var(--gray);
   -webkit-box-sizing: border-box;
