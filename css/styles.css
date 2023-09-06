@@ -340,6 +340,10 @@ body {
   background-color: whitesmoke;
 }
 
+li {
+  padding: 16px;
+}
+
 .main-grid-container {
   display: -ms-grid;
   display: grid;
