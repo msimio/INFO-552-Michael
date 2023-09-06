@@ -652,6 +652,14 @@ li {
   color: var(--yellow);
 }
 
+#title3 a:link, #title3 a:visited {
+  color: var(--blue);
+  text-decoration: none;
+}
+#title3 a:hover, #title3 a:active {
+  color: var(--pink);
+}
+
 #hero {
   width: 100%;
 }

@@ -364,6 +364,21 @@ li{
   
 }
 
+#title3
+{
+  
+      a:link, a:visited
+      {
+          color: var(--blue);
+          text-decoration: none;
+  
+      }
+      a:hover, a:active
+      {
+        color: var(--pink)
+    }
+}
+
 
 
 #hero
