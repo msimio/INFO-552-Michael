@@ -375,7 +375,7 @@ li {
       grid-template-areas: "p  b";
 }
 
-#grid-container-card {
+.grid-container-card {
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
@@ -387,7 +387,7 @@ li {
       grid-template-areas: "d sd sd";
 }
 
-#grid-container-blog {
+.grid-container-blog {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
@@ -462,13 +462,14 @@ li {
           align-items: center;
 }
 
-#date {
+.date {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   background-color: whitesmoke;
   color: var(--blue);
   margin: 10px;
   border: 2px dotted var(--yellow);
+  height: 100%;
   grid-area: d;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -478,29 +479,29 @@ li {
           align-items: center;
 }
 
-#grid-container-blog > #date {
+.grid-container-blog > .date {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
 }
 
-#grid-container3 > #date {
+#grid-container3 > .date {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
 }
 
-#section-1 > #date {
+#section-1 > .date {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
 }
-#date a:link, #date a:visited {
+.date a:link, .date a:visited {
   color: var(--blue);
   text-decoration: none;
 }
-#date a:hover, #date a:active {
+.date a:hover, .date a:active {
   color: var(--yellow);
 }
 
-#description {
+.description {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
@@ -508,6 +509,7 @@ li {
   color: var(--blue);
   margin: 10px;
   border: 2px dotted var(--yellow);
+  height: 100%;
   grid-area: sd;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -517,7 +519,7 @@ li {
           align-items: center;
 }
 
-#grid-container-blog > #description {
+.grid-container-blog > .description {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
@@ -554,7 +556,7 @@ li {
   margin: 0;
 }
 
-#grid-container-blog > #drexelcci {
+.grid-container-blog > #drexelcci {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
 }

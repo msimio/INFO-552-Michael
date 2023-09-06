@@ -45,7 +45,7 @@ li{
 
 }
 
-#grid-container-card 
+.grid-container-card 
 {
     display: grid;
     //grid-template-columns: repeat(2, 1fr);
@@ -65,7 +65,7 @@ li{
 
 }
 
-#grid-container-blog 
+.grid-container-blog 
 {
     display: grid;
     //grid-template-columns: repeat(2, 1fr);
@@ -157,12 +157,14 @@ li{
     align-items: center;
 }
 
-#date 
+.date 
 {
     background-color: whitesmoke;
     color: var(--blue);
     margin: 10px;
     border: 2px dotted var(--yellow);
+    height: 100%;
+
 
     a:link, a:visited
       {
@@ -181,12 +183,14 @@ li{
     align-items: center;
 }
 
-#description 
+.description 
 {
     background-color: whitesmoke;
     color: var(--blue);
     margin: 10px;
     border: 2px dotted var(--yellow);
+    height: 100%;
+
 
 
     grid-area: sd;
