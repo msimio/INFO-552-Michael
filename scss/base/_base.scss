@@ -5,7 +5,21 @@
 
 body{background-color: whitesmoke;}
 
+.main-grid-container{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". main-content .";
+    
 
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+    .main-grid-item{
+        grid-area: main-content;
+        min-height: 80vh;
+    }
+}
 
 
 #grid-container 
