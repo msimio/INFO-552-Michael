@@ -337,10 +337,6 @@ body {
   background-color: whitesmoke;
 }
 
-img {
-  width: 100%;
-}
-
 #grid-container {
   display: -ms-grid;
   display: grid;
