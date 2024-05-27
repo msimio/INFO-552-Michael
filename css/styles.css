@@ -515,22 +515,41 @@ body {
   color: whitesmoke;
 }
 
-.one {
+.snapcontainers {
+  scroll-snap-type: mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+
+}
+
+#one {
+  scroll-snap-align: start;
+  height:100vh
+  
+}
+#two {
+  scroll-snap-align: start;
+
   height:100vh
 }
-.two {
+#three {
+  scroll-snap-align: start;
+
   height:100vh
 }
-.three {
+#four {
+  scroll-snap-align: start;
+
   height:100vh
 }
-.four {
+#five {
+  scroll-snap-align: start;
+
   height:100vh
 }
-.five {
-  height:100vh
-}
-.six {
+#six {
+  scroll-snap-align: start;
+
   height:100vh
 }
 
