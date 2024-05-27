@@ -536,15 +536,8 @@ body {
 
 
 #section-1 {
-
-  display: grid;
-
-  grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "t v d";
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0;
+  display: flex;
+  
 }
 
 
