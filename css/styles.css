@@ -536,9 +536,9 @@ body {
 
 
 #section-1 {
-  display: -ms-grid;
+
   display: grid;
-  -ms-grid-columns: (1fr)[3];
+
   grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "t v d";
   -webkit-box-align: center;
