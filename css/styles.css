@@ -537,6 +537,13 @@ body {
 
 #section-1 {
   display: flex;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding: 16px;
+  
+
   
 }
 
