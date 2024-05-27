@@ -515,43 +515,9 @@ body {
   color: whitesmoke;
 }
 
-.snapcontainers {
-  scroll-snap-type: mandatory;
-  overflow-y: scroll;
-  height: 100vh;
 
-}
 
-#one {
-  scroll-snap-align: start;
-  height:100vh
-  
-}
-#two {
-  scroll-snap-align: start;
 
-  height:100vh
-}
-#three {
-  scroll-snap-align: start;
-
-  height:100vh
-}
-#four {
-  scroll-snap-align: start;
-
-  height:100vh
-}
-#five {
-  scroll-snap-align: start;
-
-  height:100vh
-}
-#six {
-  scroll-snap-align: start;
-
-  height:100vh
-}
 
 
 #section-1 {
