@@ -534,6 +534,7 @@ body {
   height:100vh
 }
 
+/*
 #section-1 {
   display: -ms-grid;
   display: grid;
@@ -545,6 +546,7 @@ body {
           align-items: center;
   margin: 0;
 }
+*/
 
 /* =============
     Typography
