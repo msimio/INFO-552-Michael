@@ -516,7 +516,16 @@ body {
 }
 
 
+.stretchcontainer {
+  height: auto;
+  width: 80%;
+  border-radius: 10px;
+  margin: auto;
+  
+}
 
+
+/*
 .one {
   height:100vh
 }
@@ -535,6 +544,11 @@ body {
 .six {
   height:100vh
 }
+ <section class="one" style="height: 100vh;">
+*/
+
+
+
 
 
 #section-1 {
