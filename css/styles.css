@@ -524,6 +524,16 @@ body {
   
 }
 
+.stretchheader {
+  background-color:black;
+  color: var(--purple);
+  position: sticky;
+  top: 0;
+  padding:10px;
+  margin: 10px;
+
+}
+
 
 /*
 .one {
