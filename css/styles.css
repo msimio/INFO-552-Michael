@@ -535,6 +535,14 @@ body {
 
 }
 
+.homecontainer {
+  height: auto;
+  width: 85%;
+  border-radius: 10px;
+  margin: auto;
+  
+}
+
 
 /*
 .one {
