@@ -567,6 +567,15 @@ body {
 */
 
 
+::-webkit-scrollbar {
+  background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#21D4FD,#B721FF)
+}
+
+
 
 
 
