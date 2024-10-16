@@ -38,6 +38,10 @@ body {
   margin: 0;
 }
 
+canvas {
+  border: 2px solid rgb(151, 149, 149);
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
@@ -574,6 +578,10 @@ body {
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(#21D4FD,#B721FF)
 }
+
+
+
+
 
 
 
