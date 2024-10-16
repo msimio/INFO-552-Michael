@@ -158,7 +158,7 @@ Game.Draw = function(context, snake) {
     }
     
     // Draw White Stage
-		context.fillStyle = "white";
+		context.fillStyle = "black";
 		context.fillRect(0, 0, snake.stage.width, snake.stage.height);
 		
     // Snake Position
@@ -202,7 +202,7 @@ Game.Draw = function(context, snake) {
     // Draw Snake
     for (var i = 0; i < snake.stage.length.length; i++) {
       var cell = snake.stage.length[i];
-      this.drawCell(cell.x, cell.y, "green");
+      this.drawCell(cell.x, cell.y);
     }
     
     // Draw Food
@@ -214,7 +214,7 @@ Game.Draw = function(context, snake) {
   
   // Draw Cell
   this.drawCell = function(x, y) {
-    context.fillStyle = 'rgb(170, 170, 170)';
+    context.fillStyle = 'rgb(10, 242, 10)';
     context.beginPath();
     context.arc((x * snake.stage.conf.cw + 6), (y * snake.stage.conf.cw + 6), 4, 0, 2*Math.PI, false);    
     context.fill();
