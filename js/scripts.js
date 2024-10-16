@@ -209,7 +209,7 @@ Game.Draw = function(context, snake) {
     this.drawCell(snake.stage.food.x, snake.stage.food.y);
     
     // Draw Score
-    context.fillText('Score: ' + snake.stage.score, 5, (snake.stage.height - 5));
+    context.fillText('Total: ' + snake.stage.score, 5, (snake.stage.height - 5));
   };
   
   // Draw Cell
@@ -219,6 +219,8 @@ Game.Draw = function(context, snake) {
     context.arc((x * snake.stage.conf.cw + 6), (y * snake.stage.conf.cw + 6), 4, 0, 2*Math.PI, false);    
     context.fill();
   };
+
+  
   
   // Check Collision with walls
   this.collision = function(nx, ny) {  
