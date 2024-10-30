@@ -21,10 +21,28 @@ mainMenu.addEventListener("click", () => {
 })
 
 
+const input1 = document.getElementById("myInput");
+const input2 = document.getElementById("myInput2");
+const input3 = document.getElementById("myInput3");
 
 
 
 
+
+function calculateGains() {
+
+  const value1 = input1.value;
+  const value2 = input2.value;
+  const value3 = input3.value;
+
+  const num1 = parseFloat(value1);
+  const num2 = parseFloat(value2);
+  const num3 = parseFloat(value3);
+
+
+  document.getElementById("demo").innerHTML = num1 + num2 + num3;
+  
+}
 
 
 
