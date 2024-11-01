@@ -536,6 +536,18 @@ body {
 }
 
 
+
+#theList
+{
+    text-align: right;
+    list-style-position: inside;
+    
+}​
+
+
+
+
+
 .stretchcontainer {
   height: auto;
   width: 95%;
