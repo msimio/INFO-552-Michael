@@ -832,7 +832,7 @@ nav {
 header {
   background-color: black;
   color: whitesmoke;
-  position: static;
+  position: sticky;
   width: 100%;
   background-color: var(--gray);
   -webkit-box-sizing: border-box;
