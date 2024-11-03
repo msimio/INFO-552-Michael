@@ -45,28 +45,29 @@
             </ul>
         </nav>
     </header>
+    <main class="appcontainer">
 
     <h1>Blog</h1>
 
-    <h2>First Post Here</h2>
+    <h3>Economics Calculators Design</h3>
 
-    <ul style="list-style: none; margin: 0; padding: 0;" id="navi2">
-                
+    <div style="display: flex;">
+        <p style="flex: 1;">A few years ago I put together a quick Android app to help deliver some financial tools to the masses but never had the opportunity to properly work on the aesthetics so I thought I would recreate some of them here.</p>  
+        <div style="flex: 1;"> 
+            <div><input type="text" id="myInput" placeholder="Initial Amount ($)" /></div>
+            <div><input type="text" id="myInput2" placeholder="Current Price ($)" /></div>
+            <div><input type="text" id="myInput3" placeholder="Future Price ($)" /></div>
+            <button type="button" class="custom-btn btn-2" onclick="calculateGains()">Calculate Gains!</button>
+            <p id="demo"></p>
+        </div>  
 
-        <li style="margin: 10px;"><a href="#" onclick="return false;" target="_blank">More to come here!</a></li>
-                
-    </ul>
+    </div>
+    </main>
 
-    <h3>Second Post Here</h3>
-    <p>More to come!</p>
 
-    <h3>Economics Calculators (In Progress)</h3>
-    <p>Tools to make investing simpler to come here!</p>            
-    <div><input type="text" id="myInput" placeholder="Initial Amount" /></div>
-    <div><input type="text" id="myInput2" placeholder="Current Price" /></div>
-    <div><input type="text" id="myInput3" placeholder="Future Price" /></div>
-    <button type="button" class="custom-btn btn-2" onclick="calculateGains()">Calculate Gains!</button>
-    <p id="demo"></p>
+
+
+    
 
 
 

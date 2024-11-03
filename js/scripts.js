@@ -40,7 +40,7 @@ function calculateGains() {
   const num3 = parseFloat(value3);
 
 
-  document.getElementById("demo").innerHTML = num1 + num2 + num3;
+  document.getElementById("demo").innerHTML = "$"+Math.round(((num1*(num3/num2)-num1.toFixed(2))*100)/100).toFixed(2);
   
 }
 
