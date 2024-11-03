@@ -852,7 +852,7 @@ header {
     Footer
 ============= */
 footer {
-  background-color: rgb(105, 113, 122);
+  background-color: rgb(105, 113, 122,.9);
   
   color: whitesmoke;
 
