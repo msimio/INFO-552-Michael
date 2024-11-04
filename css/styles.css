@@ -557,8 +557,8 @@ body {
 }
 
 .stretchheader {
-  background-color:black;
-  color: var(--purple);
+  background-color:rgb(105, 113, 122,.9);
+  color: whitesmoke;
   top: 0;
   padding-top: 10px;
   padding-bottom: 10px;
