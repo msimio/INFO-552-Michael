@@ -89,7 +89,7 @@ function countSteps(event) {
     // Check if the total acceleration exceeds the threshold
     if (totalAcceleration > threshold) {
         stepCount++;
-        stepDisplay.textContent = stepCount;
+        stepDisplay.textContent = Math.round(stepCount/20);
     }
 }
 
