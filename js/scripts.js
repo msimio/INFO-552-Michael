@@ -57,6 +57,7 @@ let isCounting = false;
 const stepDisplay = document.getElementById('stepCount');
 const startButton = document.getElementById('startButton');
 const stopButton = document.getElementById('stopButton');
+const resetButton = document.getElementById('resetButton');
 
 // Function to start step counting
 startButton.addEventListener('click', () => {
@@ -76,10 +77,19 @@ stopButton.addEventListener('click', () => {
     window.removeEventListener('devicemotion', countSteps);
 });
 
+// Function to stop step counting
+resetButton.addEventListener('click', () => {
+  isCounting = false;
+  window.removeEventListener('devicemotion', countSteps);
+  stepCount=0;
+  stepDisplay.textContent = stepCount;
+
+});
+
 // Function to count steps based on motion
 function countSteps(event) {
     const acceleration = event.accelerationIncludingGravity;
-    const threshold = 30; // Adjust the sensitivity as necessary
+    const threshold = 100; // Adjust the sensitivity as necessary
 
     // Calculate the overall acceleration
     let totalAcceleration = Math.sqrt(
