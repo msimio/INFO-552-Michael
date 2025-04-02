@@ -44,6 +44,73 @@ function calculateGains() {
   
 }
 
+//Step Counter
+//
+//
+
+
+
+let stepCount = 0;
+let motionHandler = null;
+let isCounting = false;
+
+const stepDisplay = document.getElementById('stepCount');
+const startButton = document.getElementById('startButton');
+const stopButton = document.getElementById('stopButton');
+
+// Function to start step counting
+startButton.addEventListener('click', () => {
+    if (!isCounting) {
+        isCounting = true;
+        if ('Accelerometer' in window || 'DeviceMotionEvent' in window) {
+            window.addEventListener('devicemotion', countSteps);
+        } else {
+            alert('Your device does not support motion sensors.');
+        }
+    }
+});
+
+// Function to stop step counting
+stopButton.addEventListener('click', () => {
+    isCounting = false;
+    window.removeEventListener('devicemotion', countSteps);
+});
+
+// Function to count steps based on motion
+function countSteps(event) {
+    const acceleration = event.accelerationIncludingGravity;
+    const threshold = 10; // Adjust the sensitivity as necessary
+
+    // Calculate the overall acceleration
+    let totalAcceleration = Math.sqrt(
+        acceleration.x * acceleration.x +
+        acceleration.y * acceleration.y +
+        acceleration.z * acceleration.z
+    );
+
+    // Check if the total acceleration exceeds the threshold
+    if (totalAcceleration > threshold) {
+        stepCount++;
+        stepDisplay.textContent = stepCount;
+    }
+}
+
+
+
+///Game
+//
+//
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
