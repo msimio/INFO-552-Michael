@@ -97,7 +97,6 @@ function countSteps(event) {
 
 
 
-
 ///Game
 //
 //
