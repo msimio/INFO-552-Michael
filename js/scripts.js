@@ -79,7 +79,7 @@ stopButton.addEventListener('click', () => {
 // Function to count steps based on motion
 function countSteps(event) {
     const acceleration = event.accelerationIncludingGravity;
-    const threshold = 10; // Adjust the sensitivity as necessary
+    const threshold = 30; // Adjust the sensitivity as necessary
 
     // Calculate the overall acceleration
     let totalAcceleration = Math.sqrt(
