@@ -88,6 +88,10 @@ resetButton.addEventListener('click', () => {
   window.removeEventListener('devicemotion', countSteps);
   stepCount=0;
   stepDisplay.textContent = stepCount;
+  setInterval(() => {
+    const width = stepCount
+    progressBar.style.setProperty('--width', stepCount)
+  })
 });
 
 // Function to count steps based on motion
@@ -108,9 +112,8 @@ function countSteps(event) {
         stepDisplay.textContent = Math.round(stepCount/20);
         
         setInterval(() => {
-          const computedStyle = getComputedStyle(progressBar)
           const width = stepCount
-          progressBar.style.setProperty('--width', stepCount)
+          progressBar.style.setProperty('--width', stepCount/20)
         })
 
     }
