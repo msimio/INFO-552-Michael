@@ -48,24 +48,32 @@
     <main class="appcontainer">
 
 
-    <h1>Blog</h1>
-    <p>I will use this space to explore some ideas in UX and web development.</p>
 
-    <h3>Pedometer</h3>
-    <p>Unfortunately, too many of us seem to be relying on our smartphones and algorithms to find satisfaction. A bright spot in the use of smartphones and wearables seems to be the interest in step trackers and exercise. On the linked page I will try to develop a mobile site that can function as a pedometer for anyone with a smartphone. While semi-functional, the page only represents a prototype for a pedometer design.</p>
-
-    <a href='pedometer.html' target="_blank">Pedometer</a>
-
-
-
-    <h3>Economics Calculators Design</h3>
-    <p>A few years ago I put together a quick Android app to help deliver some financial tools to the masses but never had the opportunity to properly work on the aesthetics so I thought I would try out some designs on the page linked below.</p>  
-
-    <a href='economics.html' target="_blank" style="margin: 4px;">Economics Calculators (In Progress)</a>
+    <div class="container">
+        <h1>Pedometer</h1>
+        <div class="counter" id="stepCount">0</div>
+        <button class="custom-btn btn-2" id="startButton">Start</button>
+        <button class="custom-btn btn-2" id="stopButton">Stop</button>
+        <button class="custom-btn btn-2" id="resetButton">Reset</button>
+    </div>
 
 
 
+    <div>
+        <select>
+          <option>Set goal</option>
+          <option>1/4 mile (500 steps)</option>
+          <option>1/2 mile (1,000 steps)</option>
+          <option>1 mile (2,000 steps)</option>
+        </select>
+      </div>
 
+    <div class="progress-bar" style="--width: 0" data-label="Progress..."></div>
+
+   
+
+
+    
 
 
     </main>
