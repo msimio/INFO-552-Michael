@@ -52,6 +52,16 @@ const progressBar = document.getElementsByClassName('progress-bar')[0]
 //Add logic for goals
 
 
+//Circle Stuff
+
+let CircularBar = document.querySelector(".circular-bar");
+let PercentValue = document.querySelector(".percent");
+
+let InitialValue = 0;
+let finaleValue = 100;
+let speed = 10;
+
+
 //Step Counter
 //
 //
@@ -116,10 +126,20 @@ function countSteps(event) {
         setInterval(() => {
           const width = stepCount
           progressBar.style.setProperty('--width', stepCount/20)
+
+            InitialValue += 1;
+
+            CircularBar.style.background = `conic-gradient(#4285f4 ${InitialValue/100 * 360}deg, #e8f0f7 0deg)`;
+            PercentValue.innerHTML = InitialValue+"%";
         })
 
     }
 }
+
+
+
+
+
 
 
 
