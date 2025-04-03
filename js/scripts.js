@@ -49,6 +49,8 @@ function calculateGains() {
 
 const progressBar = document.getElementsByClassName('progress-bar')[0]
 
+//Add logic for goals
+
 
 //Step Counter
 //
