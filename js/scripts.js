@@ -109,8 +109,8 @@ function countSteps(event) {
         
         setInterval(() => {
           const computedStyle = getComputedStyle(progressBar)
-          const width = parseFloat(computedStyle.getPropertyValue('--width')) || 0
-          progressBar.style.setProperty('--width', width + .1)
+          const width = stepCount
+          progressBar.style.setProperty('--width', stepCount)
         })
 
     }
