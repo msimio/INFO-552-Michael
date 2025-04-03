@@ -130,7 +130,7 @@ function countSteps(event) {
             InitialValue += 1;
 
             CircularBar.style.background = `conic-gradient(#4285f4 ${(stepCount/20)/100 * 360}deg, #e8f0f7 0deg)`;
-            PercentValue.innerHTML = InitialValue+"%";
+            PercentValue.innerHTML = (stepCount/20)+"%";
         })
 
     }
