@@ -55,6 +55,8 @@ let isCounting = false;
 const stepDisplay = document.getElementById('stepCount');
 const startButton = document.getElementById('startButton');
 const stopButton = document.getElementById('stopButton');
+const resetButton = document.getElementById('resetButton');
+
 
 // Function to start step counting
 startButton.addEventListener('click', () => {
@@ -72,6 +74,14 @@ startButton.addEventListener('click', () => {
 stopButton.addEventListener('click', () => {
     isCounting = false;
     window.removeEventListener('devicemotion', countSteps);
+});
+
+// Function to stop step counting
+resetButton.addEventListener('click', () => {
+  isCounting = false;
+  window.removeEventListener('devicemotion', countSteps);
+  stepCount=0;
+  stepDisplay.textContent = stepCount;
 });
 
 // Function to count steps based on motion
