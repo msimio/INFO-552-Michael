@@ -861,6 +861,69 @@ input[type=radio] {
   
   align-content: center;
   gap: 8px;
+  margin: 24px;
+
+}
+
+.blogcontainer2 {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  
+  align-content: center;
+  gap: 8px;
+  margin: 24px;
+
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 4s ease-out, transform 4s ease-out;
+
+}
+
+.blogcontainer2.in-view{
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  
+  align-content: center;
+  gap: 8px;
+  margin: 24px;
+
+  opacity: 1;
+  transform: translateY(0);
+
+}
+
+
+
+.datecontainer {
+
+
+  animation: slideIn2 3s forwards;
+}
+
+.postcontainer {
+ 
+
+  animation: slideIn 3s forwards;
+}
+
+
+
+@keyframes slideIn {
+  0% {
+      transform: translateY(-100%); /* Start off-screen to the left */
+  }
+  100% {
+      transform: translateX(0); /* End at its original position */
+  }
+}
+
+@keyframes slideIn2 {
+  0% {
+      transform: translateY(+100%); /* Start off-screen to the left */
+  }
+  100% {
+      transform: translateX(0); /* End at its original position */
+  }
 }
 
 

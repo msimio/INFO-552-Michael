@@ -21,6 +21,25 @@ mainMenu.addEventListener("click", () => {
 })
 
 
+//Animate on scroll
+//figure out different animations/keyframes
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+        } else {
+            // Optional: Remove 'in-view' class if you want animation to re-trigger on scroll back up
+            entry.target.classList.remove('in-view');
+        }
+    });
+});
+
+document.querySelectorAll('.blogcontainer2').forEach(element => {
+    observer.observe(element);
+});
+
+
 const input1 = document.getElementById("myInput");
 const input2 = document.getElementById("myInput2");
 const input3 = document.getElementById("myInput3");
