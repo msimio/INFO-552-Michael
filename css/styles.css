@@ -856,8 +856,7 @@ input[type=radio] {
 }
 
 .blogcontainer {
-  display: grid;
-  grid-template-columns: 1fr 9fr;
+ 
   
   align-content: center;
   gap: 8px;
@@ -866,22 +865,21 @@ input[type=radio] {
 }
 
 .blogcontainer2 {
-  display: grid;
-  grid-template-columns: 1fr 9fr;
+
   
   align-content: center;
   gap: 8px;
   margin: 24px;
 
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(20px); /* Initial position for a slide-up effect */
   transition: opacity 4s ease-out, transform 4s ease-out;
 
 }
 
+/* These are two part triggers after javascript processes inview*/
 .blogcontainer2.in-view{
-  display: grid;
-  grid-template-columns: 1fr 9fr;
+
   
   align-content: center;
   gap: 8px;
@@ -889,6 +887,8 @@ input[type=radio] {
 
   opacity: 1;
   transform: translateY(0);
+
+  
 
 }
 
@@ -900,6 +900,9 @@ input[type=radio] {
   animation: slideIn2 3s forwards;
 }
 
+/* These are keyframes for static 1 time animations*/
+
+
 .postcontainer {
  
 
@@ -910,7 +913,7 @@ input[type=radio] {
 
 @keyframes slideIn {
   0% {
-      transform: translateY(-100%); /* Start off-screen to the left */
+      transform: translateY(-100%); /* Start down */
   }
   100% {
       transform: translateX(0); /* End at its original position */
