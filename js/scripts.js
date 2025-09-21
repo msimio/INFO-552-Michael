@@ -35,6 +35,8 @@ const observer = new IntersectionObserver(entries => {
     });
 });
 
+
+//Duplicate this block for other animation types? Add to this block?
 document.querySelectorAll('.blogcontainer2').forEach(element => {
     observer.observe(element);
 });
