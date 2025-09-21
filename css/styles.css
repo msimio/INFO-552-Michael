@@ -909,6 +909,10 @@ input[type=radio] {
   animation: slideIn 3s forwards;
 }
 
+/*Defining the animation slideIn with keyframes 
+Static on page view
+Use js to implement scrolling transitions
+*/
 
 
 @keyframes slideIn {
