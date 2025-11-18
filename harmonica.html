@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/e8e6587360.js" crossorigin="anonymous"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Michael Simio, UX Designer</title>
+    <link rel="icon" href="img/embed-code-icon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/embed-code-icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body style="font-family: Noto Sans, sans-serif;text-align:center; cursor: url('img/pick3.png'), auto;">
+    <header style="background-color: black; margin: 0;" class="hftitles">
+        <section style="background-color: black;" id="nav-container">
+            <section id="logo">
+                <a href="index.html">    
+                    <div style="display: flex; justify-content: center; font-size: larger;">
+                        <p style="font-weight: 200; background-color: black;color: whitesmoke;">Michael</p>
+                        <p style="font-weight: 600; background-color: black;color: whitesmoke;">Simio</p>
+                    </div>
+                </a>
+             </section>
+            <section id="burger-container">
+            
+                <button style="background-color: black; border: none;" id="burger-btn">
+                    <div style="background-color: aliceblue; width: 27px; height: 1px; margin: 6px 0;"></div>
+                    <div style="background-color: aliceblue; width: 27px; height: 1px; margin: 6px 0;"></div>
+                    <div style="background-color: aliceblue; width: 27px; height: 1px; margin: 6px 0;"></div>
+                </button>
+            </section>
+        </section>
+        <nav id="main-menu" style="background-image: url('img/theone.jpg'); background-size: cover;">
+            <ul style="list-style: none; padding: 0; margin: 20px; align-items:start; color: whitesmoke;" id="theList">
+                <li style="margin: 16px;" id="navi3"><a href="index.html">Home</a></li>
+                <li style="margin: 16px;" id="navi3"><a href="projects.html">Apps</a></li>
+                <li style="margin: 16px;" id="navi3"><a href="research.html">Case Studies</a></li>
+                <li style="margin: 16px;" id="navi3"><a href="blog.html">Blog</a></li>  
+                <li style="margin: 16px;" id="navi3"><a href="contact.html">Contact</a></li>  
+            </ul>
+        </nav>
+    </header>
+    <main class="appcontainer">
+
+
+    <h1>Blog</h1>
+    <p>Exploring ideas in UX and the digital world</p>
+
+    <p>Interactive harmonica note graphic</p>
+    <p>*coming soon*</p>
+
+
+    <p>Harmonica Position Tool</p>
+    <p>Diatonic harmonicas might only contain the notes for a certain key, however, choosing a harmonica from a different key can provide access to different modes. Use the tool below to figure out which mode you will be playing in.</p>
+
+
+    <label for="key">Harmonica Key</label>
+    <select id="key" name="selected_key" onchange="getPosition()">
+        <option value="A">A</option>
+        <option value="Bb">Bb</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="Db">Db</option>
+        <option value="D">D</option>
+        <option value="Eb">Eb</option>
+        <option value="E">E</option>
+        <option value="F">F</option>
+        <option value="Gb">Gb</option>
+        <option value="G">G</option>
+        <option value="Ab">Ab</option>
+    </select>
+
+    <button type="button" class="custom-btn btn-2" onclick="getPosition()">Temp Button</button>
+
+
+    <p id="testout">A</p>
+
+    <p id="outnotes"></p>
+    <p id="innotes"></p>
+
+
+
+
+
+
+    <p id="first">First Position: A Major</p>
+    <p id="firstnotes">Notes</p>
+    <p id="second">Second Position: E Mixolydian</p>
+    <p id="secondnotes">Notes</p>
+    <p id="third">Third Position: Bm Dorian</p>
+    <p id="thirdnotes">Notes</p>
+    <br>
+    <br>
+    <br>
+
+
+
+    
+
+
+
+  
+    </main>
+
+
+
+    <footer>
+        <p>Designed by Michael Simio</p>
+    </footer>
+
+ 
+
+<script src="js/scripts-dist.js"></script>
+
+</body>
+
+</html>

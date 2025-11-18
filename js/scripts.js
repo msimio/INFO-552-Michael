@@ -65,6 +65,157 @@ function calculateGains() {
   
 }
 
+function getPosition()
+{
+
+    var ex = document.getElementById('key');
+    var str1= ex.options[ex.selectedIndex].value;
+    var dropid = [ex.selectedIndex];
+
+    if(dropid==0)
+    {
+        pos1="A Major"
+        pos2="E Mixolydian"
+        pos3="Bm Dorian"
+        notes="A B C D E F G"
+        outnotes="A Db E A Db E A Db E A"
+        innotes="B E Ab B D F# Ab B D F#"
+    }
+    else if(dropid==1)
+    {
+        pos1="Bb Major"
+        pos2="F Mixolydian"
+        pos3="Cm Dorian"
+        notes="A B C D E F G"
+        outnotes="Bb D F Bb D F Bb D F Bb"
+        innotes="C F A C Eb G A C Eb G"
+
+    }
+    else if(dropid==2)
+    {
+        pos1="B Major"
+        pos2="F# Mixolydian"
+        pos3="C#m Dorian"
+        notes="A B C D E F G"
+        outnotes="B Eb F# B Eb F# B Eb F# B"
+        innotes="Db F# Bb Db E Ab Bb Db E Ab"
+
+    }
+    else if(dropid==3)
+    {
+        pos1="C Major"
+        pos2="G Mixolydian"
+        pos3="Dm Dorian"
+        notes="A B C D E F G"
+        outnotes="C E G C E G C E G C"
+        innotes="D G B D F A B D F A"
+        
+
+    }
+    else if(dropid==4)
+    {
+        pos1="Db Major"
+        pos2="Ab Mixolydian"
+        pos3="Ebm Dorian"
+        notes="A B C D E F G"
+        outnotes="Db F Ab Db F Ab Db F Ab Db"
+        innotes="Eb Ab C Eb F# Bb C Eb F# Bb"
+
+    }
+    else if(dropid=5)
+    {
+        pos1="D Major"
+        pos2="A Mixolydian"
+        pos3="Em Dorian"
+        notes="A B C D E F G"
+        outnotes="D F# A D F# A D F# A D"
+        innotes="E A Db E G B Db E G B"
+
+    }
+    else if(dropid==6)
+    {
+        pos1="Eb Major"
+        pos2="Bb Mixolydian"
+        pos3="F Dorian"
+        notes="A B C D E F G"
+        outnotes="Eb G Bb Eb G Bb Eb G Bb Eb"
+        innotes="F Bb D F Ab C D F Ab C"
+
+    }
+    else if(dropid==7)
+    {
+        pos1="E Major"
+        pos2="B Mixolydian"
+        pos3="F#m Dorian"
+        notes="A B C D E F G"
+        outnotes="E A B E A B E A B E"
+        innotes="F# B Eb F# A Db Eb F# A Db"
+
+    }
+    else if(dropid==8)
+    {
+        pos1="F Major"
+        pos2="C Mixolydian"
+        pos3="Gm Dorian"
+        notes="A B C D E F G"
+        outnotes="F A C F A C F A C F"
+        innotes="G C E G Bb D E G Bb D"
+
+    }
+    else if(dropid==9)
+    {
+        pos1="Gb Major"
+        pos2="C# Mixolydian"
+        pos3="G#m Dorian"
+        notes="A B C D E F G"
+        outnotes="F# Bb Db F# Bb Db F# Bb Db F#"
+        innotes="Ab Db D Ab B Eb F Ab B Eb"
+
+    }
+    else if(dropid==10)
+    {
+        pos1="G Major"
+        pos2="D Mixolydian"
+        pos3="Am Dorian"
+        notes="A B C D E F G"
+        outnotes="G B D G B D G B D G"
+        innotes="A D F# A C E F# A C E"
+
+    }
+    else if(dropid==11)
+    {
+        pos1="Ab Major"
+        pos2="Eb Mixolydian"
+        pos3="Bbm Dorian"
+        notes="A B C D E F G"
+        outnotes="Ab C Eb Ab C Eb Ab C Eb Ab"
+        innotes="Bb Eb G Bb Db F G Bb Db F"
+    }
+    
+
+
+
+
+    document.getElementById("testout").innerHTML = str1;
+
+    document.getElementById("first").innerHTML = "First Position: "+pos1;
+    document.getElementById("second").innerHTML = "Second Position: "+pos2;
+    document.getElementById("third").innerHTML = "Third Position: "+pos3;
+
+    document.getElementById("firstnotes").innerHTML = "Mode Notes/Position"+notes;
+    document.getElementById("secondnotes").innerHTML = notes;
+    document.getElementById("thirdnotes").innerHTML = notes;
+    
+
+    document.getElementById("innotes").innerHTML = "Notes "+ outnotes;
+    document.getElementById("outnotes").innerHTML = "Notes"+ innotes;
+
+
+
+
+
+}
+
 
 
 
