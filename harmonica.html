@@ -48,23 +48,14 @@
     <main class="appcontainer">
 
 
-    <h1>Blog</h1>
-    <p>Exploring ideas in UX and the digital world</p>
-
-    <p>Interactive harmonica note graphic</p>
-    <p>*coming soon*</p>
-
-
-    <p>Harmonica Position Tool</p>
-    <p>Diatonic harmonicas might only contain the notes for a certain key, however, choosing a harmonica from a different key can provide access to different modes. Use the tool below to figure out which mode you will be playing in.</p>
-
+    <h1>Harmonica Stuff</h1>
 
     <label for="key">Harmonica Key</label>
-    <select id="key" name="selected_key" onchange="getPosition()">
+    <select id="key" class="custom-select" name="selected_key" onchange="getPosition()">
         <option value="A">A</option>
         <option value="Bb">Bb</option>
         <option value="B">B</option>
-        <option value="C">C</option>
+        <option value="C" selected>C</option>
         <option value="Db">Db</option>
         <option value="D">D</option>
         <option value="Eb">Eb</option>
@@ -75,25 +66,66 @@
         <option value="Ab">Ab</option>
     </select>
 
-    <button type="button" class="custom-btn btn-2" onclick="getPosition()">Temp Button</button>
+
+    <p>Notes</p>
+    <div id="harmonicagrid">
+        <div style="display: flex;justify-content: center;align-items: center;">In</div>
+        <div id="in1" style="display: flex;justify-content: center;align-items: center;">D</div>
+        <div id="in2" style="display: flex;justify-content: center;align-items: center;">G</div>
+        <div id="in3" style="display: flex;justify-content: center;align-items: center;">B</div>
+        <div id="in4" style="display: flex;justify-content: center;align-items: center;">D</div>
+        <div id="in5" style="display: flex;justify-content: center;align-items: center;">F</div>
+        <div id="in6" style="display: flex;justify-content: center;align-items: center;">A</div>
+        <div id="in7" style="display: flex;justify-content: center;align-items: center;">B</div>
+        <div id="in8" style="display: flex;justify-content: center;align-items: center;">D</div>
+        <div id="in9" style="display: flex;justify-content: center;align-items: center;">F</div>
+        <div id="in10" style="display: flex;justify-content: center;align-items: center;">A</div>
+        <div></div>
+        <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">1</div>
+        <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">2</div>
+        <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">3</div>
+        <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">4</div>
+        <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">5</div>
+        <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">6</div>
+        <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">7</div>
+        <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">8</div>
+        <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">9</div>
+        <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">10</div>
+        <div style="display: flex;justify-content: center;align-items: center;">Out</div>
+        <div id="out1" style="display: flex;justify-content: center;align-items: center;">C</div>
+        <div id="out2" style="display: flex;justify-content: center;align-items: center;">E</div>
+        <div id="out3" style="display: flex;justify-content: center;align-items: center;">G</div>
+        <div id="out4" style="display: flex;justify-content: center;align-items: center;">C</div>
+        <div id="out5" style="display: flex;justify-content: center;align-items: center;">E</div>
+        <div id="out6" style="display: flex;justify-content: center;align-items: center;">G</div>
+        <div id="out7" style="display: flex;justify-content: center;align-items: center;">C</div>
+        <div id="out8" style="display: flex;justify-content: center;align-items: center;">E</div>
+        <div id="out9" style="display: flex;justify-content: center;align-items: center;">G</div>
+        <div id="out10" style="display: flex;justify-content: center;align-items: center;">C</div>
 
 
-    <p id="testout">A</p>
 
-    <p id="outnotes"></p>
-    <p id="innotes"></p>
-
+    </div>
+  
 
 
+    <p>Positions</p>
+
+
+    
 
 
 
-    <p id="first">First Position: A Major</p>
-    <p id="firstnotes">Notes</p>
-    <p id="second">Second Position: E Mixolydian</p>
-    <p id="secondnotes">Notes</p>
-    <p id="third">Third Position: Bm Dorian</p>
-    <p id="thirdnotes">Notes</p>
+  
+
+
+
+
+
+
+    <p id="first">First Position: C Major</p>
+    <p id="second">Second Position: G Mixolydian</p>
+    <p id="third">Third Position: Dm Dorian</p>
     <br>
     <br>
     <br>

@@ -80,6 +80,26 @@ function getPosition()
         notes="A B C D E F G"
         outnotes="A Db E A Db E A Db E A"
         innotes="B E Ab B D F# Ab B D F#"
+        out1="A"
+        out2="Db"
+        out3="E"
+        out4="A"
+        out5="Db"
+        out6="E"
+        out7="A"
+        out8="Db"
+        out9="E"
+        out10="A"
+        in1="B"
+        in2="E"
+        in3="Ab"
+        in4="B"
+        in5="D"
+        in6="F#"
+        in7="Ab"
+        in8="B"
+        in9="D"
+        in10="F#"
     }
     else if(dropid==1)
     {
@@ -89,6 +109,26 @@ function getPosition()
         notes="A B C D E F G"
         outnotes="Bb D F Bb D F Bb D F Bb"
         innotes="C F A C Eb G A C Eb G"
+        out1="Bb"
+        out2="D"
+        out3="F"
+        out4="Bb"
+        out5="D"
+        out6="F"
+        out7="Bb"
+        out8="D"
+        out9="F"
+        out10="Bb"
+        in1="C"
+        in2="F"
+        in3="A"
+        in4="C"
+        in5="Eb"
+        in6="G"
+        in7="A"
+        in8="C"
+        in9="Eb"
+        in10="G"
 
     }
     else if(dropid==2)
@@ -99,6 +139,26 @@ function getPosition()
         notes="A B C D E F G"
         outnotes="B Eb F# B Eb F# B Eb F# B"
         innotes="Db F# Bb Db E Ab Bb Db E Ab"
+        out1="B"
+        out2="Eb"
+        out3="F#"
+        out4="B"
+        out5="Eb"
+        out6="F#"
+        out7="B"
+        out8="Eb"
+        out9="F#"
+        out10="B"
+        in1="Db"
+        in2="F#"
+        in3="Bb"
+        in4="Db"
+        in5="E"
+        in6="Ab"
+        in7="Bb"
+        in8="Db"
+        in9="E"
+        in10="Ab"
 
     }
     else if(dropid==3)
@@ -109,6 +169,26 @@ function getPosition()
         notes="A B C D E F G"
         outnotes="C E G C E G C E G C"
         innotes="D G B D F A B D F A"
+        out1="C"
+        out2="E"
+        out3="G"
+        out4="C"
+        out5="E"
+        out6="G"
+        out7="C"
+        out8="E"
+        out9="G"
+        out10="C"
+        in1="D"
+        in2="G"
+        in3="B"
+        in4="D"
+        in5="F"
+        in6="A"
+        in7="B"
+        in8="D"
+        in9="F"
+        in10="A"
         
 
     }
@@ -120,9 +200,29 @@ function getPosition()
         notes="A B C D E F G"
         outnotes="Db F Ab Db F Ab Db F Ab Db"
         innotes="Eb Ab C Eb F# Bb C Eb F# Bb"
+        out1="Db"
+        out2="F"
+        out3="Ab"
+        out4="Db"
+        out5="F"
+        out6="Ab"
+        out7="Db"
+        out8="F"
+        out9="Ab"
+        out10="Db"
+        in1="Eb"
+        in2="Ab"
+        in3="C"
+        in4="Eb"
+        in5="F#"
+        in6="Bb"
+        in7="C"
+        in8="Eb"
+        in9="F#"
+        in10="Bb"
 
     }
-    else if(dropid=5)
+    else if(dropid==5)
     {
         pos1="D Major"
         pos2="A Mixolydian"
@@ -130,6 +230,26 @@ function getPosition()
         notes="A B C D E F G"
         outnotes="D F# A D F# A D F# A D"
         innotes="E A Db E G B Db E G B"
+        out1="D"
+        out2="F#"
+        out3="A"
+        out4="D"
+        out5="F#"
+        out6="A"
+        out7="D"
+        out8="F#"
+        out9="A"
+        out10="D"
+        in1="E"
+        in2="A"
+        in3="Db"
+        in4="E"
+        in5="G"
+        in6="B"
+        in7="Db"
+        in8="E"
+        in9="G"
+        in10="B"
 
     }
     else if(dropid==6)
@@ -140,6 +260,26 @@ function getPosition()
         notes="A B C D E F G"
         outnotes="Eb G Bb Eb G Bb Eb G Bb Eb"
         innotes="F Bb D F Ab C D F Ab C"
+        out1="Eb"
+        out2="G"
+        out3="Bb"
+        out4="Eb"
+        out5="G"
+        out6="Bb"
+        out7="Eb"
+        out8="G"
+        out9="Bb"
+        out10="Eb"
+        in1="F"
+        in2="Bb"
+        in3="D"
+        in4="F"
+        in5="Ab"
+        in6="C"
+        in7="D"
+        in8="F"
+        in9="Ab"
+        in10="C"
 
     }
     else if(dropid==7)
@@ -150,6 +290,26 @@ function getPosition()
         notes="A B C D E F G"
         outnotes="E A B E A B E A B E"
         innotes="F# B Eb F# A Db Eb F# A Db"
+        out1="E"
+        out2="A"
+        out3="B"
+        out4="E"
+        out5="A"
+        out6="B"
+        out7="E"
+        out8="A"
+        out9="B"
+        out10="E"
+        in1="F#"
+        in2="B"
+        in3="Eb"
+        in4="F#"
+        in5="A"
+        in6="Db"
+        in7="Eb"
+        in8="F#"
+        in9="A"
+        in10="Db"
 
     }
     else if(dropid==8)
@@ -160,6 +320,26 @@ function getPosition()
         notes="A B C D E F G"
         outnotes="F A C F A C F A C F"
         innotes="G C E G Bb D E G Bb D"
+        out1="F"
+        out2="A"
+        out3="C"
+        out4="F"
+        out5="A"
+        out6="C"
+        out7="F"
+        out8="A"
+        out9="C"
+        out10="F"
+        in1="G"
+        in2="C"
+        in3="E"
+        in4="G"
+        in5="Bb"
+        in6="D"
+        in7="E"
+        in8="G"
+        in9="Bb"
+        in10="D"
 
     }
     else if(dropid==9)
@@ -170,6 +350,26 @@ function getPosition()
         notes="A B C D E F G"
         outnotes="F# Bb Db F# Bb Db F# Bb Db F#"
         innotes="Ab Db D Ab B Eb F Ab B Eb"
+        out1="F#"
+        out2="Bb"
+        out3="Db"
+        out4="F#"
+        out5="Bb"
+        out6="Db"
+        out7="F#"
+        out8="Bb"
+        out9="Db"
+        out10="F#"
+        in1="Ab"
+        in2="Db"
+        in3="D"
+        in4="Ab"
+        in5="B"
+        in6="Eb"
+        in7="F"
+        in8="Ab"
+        in9="B"
+        in10="Eb"
 
     }
     else if(dropid==10)
@@ -180,6 +380,26 @@ function getPosition()
         notes="A B C D E F G"
         outnotes="G B D G B D G B D G"
         innotes="A D F# A C E F# A C E"
+        out1="G"
+        out2="B"
+        out3="D"
+        out4="G"
+        out5="B"
+        out6="D"
+        out7="G"
+        out8="B"
+        out9="D"
+        out10="G"
+        in1="A"
+        in2="D"
+        in3="F#"
+        in4="A"
+        in5="C"
+        in6="E"
+        in7="F#"
+        in8="A"
+        in9="C"
+        in10="E"
 
     }
     else if(dropid==11)
@@ -190,25 +410,61 @@ function getPosition()
         notes="A B C D E F G"
         outnotes="Ab C Eb Ab C Eb Ab C Eb Ab"
         innotes="Bb Eb G Bb Db F G Bb Db F"
+        out1="Ab"
+        out2="C"
+        out3="Eb"
+        out4="Ab"
+        out5="C"
+        out6="Eb"
+        out7="Ab"
+        out8="C"
+        out9="Eb"
+        out10="Ab"
+        in1="Bb"
+        in2="Eb"
+        in3="G"
+        in4="Bb"
+        in5="Db"
+        in6="F"
+        in7="G"
+        in8="Bb"
+        in9="Db"
+        in10="F"
     }
     
 
 
 
 
-    document.getElementById("testout").innerHTML = str1;
+    
 
     document.getElementById("first").innerHTML = "First Position: "+pos1;
     document.getElementById("second").innerHTML = "Second Position: "+pos2;
     document.getElementById("third").innerHTML = "Third Position: "+pos3;
 
-    document.getElementById("firstnotes").innerHTML = "Mode Notes/Position"+notes;
-    document.getElementById("secondnotes").innerHTML = notes;
-    document.getElementById("thirdnotes").innerHTML = notes;
-    
+ 
+  
 
-    document.getElementById("innotes").innerHTML = "Notes "+ outnotes;
-    document.getElementById("outnotes").innerHTML = "Notes"+ innotes;
+    document.getElementById("out1").innerHTML = out1;
+    document.getElementById("in1").innerHTML = in1;
+    document.getElementById("out2").innerHTML = out2;
+    document.getElementById("in2").innerHTML = in2;
+    document.getElementById("out3").innerHTML = out3;
+    document.getElementById("in3").innerHTML = in3;
+    document.getElementById("out4").innerHTML = out4;
+    document.getElementById("in4").innerHTML = in4;
+    document.getElementById("out5").innerHTML = out5;
+    document.getElementById("in5").innerHTML = in5;
+    document.getElementById("out6").innerHTML = out6;
+    document.getElementById("in6").innerHTML = in6;
+    document.getElementById("out7").innerHTML = out7;
+    document.getElementById("in7").innerHTML = in7;
+    document.getElementById("out8").innerHTML = out8;
+    document.getElementById("in8").innerHTML = in8;
+    document.getElementById("out9").innerHTML = out9;
+    document.getElementById("in9").innerHTML = in9;
+    document.getElementById("out10").innerHTML = out10;
+    document.getElementById("in10").innerHTML = in10;
 
 
 
