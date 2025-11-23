@@ -67,19 +67,29 @@
     </select>
 
 
-    <p>Notes</p>
+    <h3>Notes</h3>
     <div id="harmonicagrid">
         <div style="display: flex;justify-content: center;align-items: center;">In</div>
-        <div id="in1" style="display: flex;justify-content: center;align-items: center;">D</div>
-        <div id="in2" style="display: flex;justify-content: center;align-items: center;">G</div>
-        <div id="in3" style="display: flex;justify-content: center;align-items: center;">B</div>
-        <div id="in4" style="display: flex;justify-content: center;align-items: center;">D</div>
-        <div id="in5" style="display: flex;justify-content: center;align-items: center;">F</div>
-        <div id="in6" style="display: flex;justify-content: center;align-items: center;">A</div>
-        <div id="in7" style="display: flex;justify-content: center;align-items: center;">B</div>
-        <div id="in8" style="display: flex;justify-content: center;align-items: center;">D</div>
-        <div id="in9" style="display: flex;justify-content: center;align-items: center;">F</div>
-        <div id="in10" style="display: flex;justify-content: center;align-items: center;">A</div>
+        <div id="in1" style="display: flex;justify-content: center;align-items: center;" class="popup" onmousedown="togglePopupin1()">D
+            <span class="popuptext" id="myPopupin1">Half Step Down</span></div>
+        <div id="in2" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupin2()">G
+            <span class="popuptext" id="myPopupin2">2 Half Steps Down</span></div>
+        <div id="in3" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupin3()">B
+            <span class="popuptext" id="myPopupin3">3 Half Steps Down</span></div>
+        <div id="in4" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupin4()">D
+            <span class="popuptext" id="myPopupin4">Half Step Down</span></div>
+        <div id="in5" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupin5()">F
+            <span class="popuptext" id="myPopupin5"></span></div>
+        <div id="in6" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupin6()">A
+            <span class="popuptext" id="myPopupin6">Half Step Down</span></div>
+        <div id="in7" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupin7()">B
+            <span class="popuptext" id="myPopupin7">Overblow</span></div>
+        <div id="in8" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupin8()">D
+            <span class="popuptext" id="myPopupin8"></span></div>
+        <div id="in9" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupin9()">F
+            <span class="popuptext" id="myPopupin9">Overblow</span></div>
+        <div id="in10" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupin10()">A
+            <span class="popuptext" id="myPopupin10">Overblow</span></div>
         <div></div>
         <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">1</div>
         <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">2</div>
@@ -92,16 +102,26 @@
         <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">9</div>
         <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">10</div>
         <div style="display: flex;justify-content: center;align-items: center;">Out</div>
-        <div id="out1" style="display: flex;justify-content: center;align-items: center;">C</div>
-        <div id="out2" style="display: flex;justify-content: center;align-items: center;">E</div>
-        <div id="out3" style="display: flex;justify-content: center;align-items: center;">G</div>
-        <div id="out4" style="display: flex;justify-content: center;align-items: center;">C</div>
-        <div id="out5" style="display: flex;justify-content: center;align-items: center;">E</div>
-        <div id="out6" style="display: flex;justify-content: center;align-items: center;">G</div>
-        <div id="out7" style="display: flex;justify-content: center;align-items: center;">C</div>
-        <div id="out8" style="display: flex;justify-content: center;align-items: center;">E</div>
-        <div id="out9" style="display: flex;justify-content: center;align-items: center;">G</div>
-        <div id="out10" style="display: flex;justify-content: center;align-items: center;">C</div>
+        <div id="out1" style="display: flex;justify-content: center;align-items: center;" class="popup" onmousedown="togglePopupout1()">C
+            <span class="popuptext" id="myPopupout1">Overblow</span></div>
+        <div id="out2" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupout2()">E
+            <span class="popuptext" id="myPopupout2"></span></div>
+        <div id="out3" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupout3()">G
+            <span class="popuptext" id="myPopupout3"></span></div>
+        <div id="out4" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupout4()">C
+            <span class="popuptext" id="myPopupout4">Overblow</span></div>
+        <div id="out5" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupout5()">E
+            <span class="popuptext" id="myPopupout5">Overblow</span></div>
+        <div id="out6" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupout6()">G
+            <span class="popuptext" id="myPopupout6">Overblow</span></div>
+        <div id="out7" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupout7()">C
+            <span class="popuptext" id="myPopupout7"></span></div>
+        <div id="out8" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupout8()">E
+            <span class="popuptext" id="myPopupout8">Half Step Down</span></div>
+        <div id="out9" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupout9()">G
+            <span class="popuptext" id="myPopupout9">Half Step Down</span></div>
+        <div id="out10" style="display: flex;justify-content: center;align-items: center;" class="popup" onclick="togglePopupout10()">C
+            <span class="popuptext" id="myPopupout10">2 Half Steps Down</span></div>
 
 
 
@@ -109,7 +129,7 @@
   
 
 
-    <p>Positions</p>
+    <h3>Positions</h3>
 
 
     

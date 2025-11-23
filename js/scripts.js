@@ -65,6 +65,29 @@ function calculateGains() {
   
 }
 
+
+var popin1 = "works0"
+var popin2 = "works00"
+var popin3 = "works000"
+var popin4 = "works0000"
+var popin5 = "works00000"
+var popin6 = "works00000"
+var popin7 = "works0000"
+var popin8 = "works000"
+var popin9 = "works00"
+var popin10 = "works0"
+
+var popout1 = "works0"
+var popout2 = "works00"
+var popout3 = "works000"
+var popout4 = "works0000"
+var popout5 = "works00000"
+var popout6 = "works00000"
+var popout7 = "works0000"
+var popout8 = "works000"
+var popout9 = "works00"
+var popout10 = "works0"
+
 function getPosition()
 {
 
@@ -170,15 +193,22 @@ function getPosition()
         outnotes="C E G C E G C E G C"
         innotes="D G B D F A B D F A"
         out1="C"
+        popout1="Eb* Overblow"
         out2="E"
         out3="G"
         out4="C"
+        popout4="Eb* Overblow"
         out5="E"
+        popout5="Gb* Overblow"
         out6="G"
+        popout6="Bb* Overblow"
         out7="C"
         out8="E"
+        popout8="Eb Bend"
         out9="G"
+        popout9="Gb Bend"
         out10="C"
+        popout10="Bb/B Bends"
         in1="D"
         in2="G"
         in3="B"
@@ -447,6 +477,7 @@ function getPosition()
 
     document.getElementById("out1").innerHTML = out1;
     document.getElementById("in1").innerHTML = in1;
+    document.getElementById("myPopupout1").innerHTML = "popout1";
     document.getElementById("out2").innerHTML = out2;
     document.getElementById("in2").innerHTML = in2;
     document.getElementById("out3").innerHTML = out3;
@@ -454,16 +485,21 @@ function getPosition()
     document.getElementById("out4").innerHTML = out4;
     document.getElementById("in4").innerHTML = in4;
     document.getElementById("out5").innerHTML = out5;
+
     document.getElementById("in5").innerHTML = in5;
     document.getElementById("out6").innerHTML = out6;
+
     document.getElementById("in6").innerHTML = in6;
     document.getElementById("out7").innerHTML = out7;
     document.getElementById("in7").innerHTML = in7;
     document.getElementById("out8").innerHTML = out8;
+
     document.getElementById("in8").innerHTML = in8;
     document.getElementById("out9").innerHTML = out9;
+
     document.getElementById("in9").innerHTML = in9;
     document.getElementById("out10").innerHTML = out10;
+
     document.getElementById("in10").innerHTML = in10;
 
 
@@ -471,6 +507,113 @@ function getPosition()
 
 
 }
+
+
+function togglePopupin1() {
+  var popup = document.getElementById("myPopupin1");
+  popup.innerHTML=popin1
+  popup.classList.toggle("show"); // Toggles the 'show' class
+}
+function togglePopupin2() {
+    var popup = document.getElementById("myPopupin2");
+    popup.innerHTML=popin2
+    popup.classList.toggle("show"); // Toggles the 'show' class
+  }
+  function togglePopupin3() {
+    var popup = document.getElementById("myPopupin3");
+    popup.innerHTML=popin3
+    popup.classList.toggle("show"); // Toggles the 'show' class
+  }
+  function togglePopupin4() {
+    var popup = document.getElementById("myPopupin4");
+    popup.innerHTML=popin4
+    popup.classList.toggle("show"); // Toggles the 'show' class
+  }
+  function togglePopupin5() {
+    var popup = document.getElementById("myPopupin5");
+    popup.innerHTML=popin5
+    popup.classList.toggle("show"); // Toggles the 'show' class
+  }
+  function togglePopupin6() {
+    var popup = document.getElementById("myPopupin6");
+    popup.innerHTML=popin6
+    popup.classList.toggle("show"); // Toggles the 'show' class
+  }
+  function togglePopupin7() {
+    var popup = document.getElementById("myPopupin7");
+    popup.innerHTML=popin7
+    popup.classList.toggle("show"); // Toggles the 'show' class
+  }
+  function togglePopupin8() {
+    var popup = document.getElementById("myPopupin8");
+    popup.innerHTML=popin8
+    popup.classList.toggle("show"); // Toggles the 'show' class
+  }
+  function togglePopupin9() {
+    var popup = document.getElementById("myPopupin9");
+    popup.innerHTML=popin9
+    popup.classList.toggle("show"); // Toggles the 'show' class
+  }
+  function togglePopupin10() {
+    var popup = document.getElementById("myPopupin10");
+    popup.innerHTML=popin10
+    popup.classList.toggle("show"); // Toggles the 'show' class
+  }
+  function togglePopupout1() {
+    var popup = document.getElementById("myPopupout1");
+    popup.innerHTML=popout1
+    popup.classList.toggle("show"); // Toggles the 'show' class
+  }
+  function togglePopupout2() {
+      var popup = document.getElementById("myPopupout2");
+      popup.innerHTML=popout2
+      popup.classList.toggle("show"); // Toggles the 'show' class
+    }
+    function togglePopupout3() {
+      var popup = document.getElementById("myPopupout3");
+      popup.innerHTML=popout3
+      popup.classList.toggle("show"); // Toggles the 'show' class
+    }
+    function togglePopupout4() {
+      var popup = document.getElementById("myPopupout4");
+      popup.innerHTML=popout4
+      popup.classList.toggle("show"); // Toggles the 'show' class
+    }
+    function togglePopupout5() {
+      var popup = document.getElementById("myPopupout5");
+      popup.innerHTML=popout5
+      popup.classList.toggle("show"); // Toggles the 'show' class
+    }
+    function togglePopupout6() {
+      var popup = document.getElementById("myPopupout6");
+      popup.innerHTML=popout6
+      popup.classList.toggle("show"); // Toggles the 'show' class
+    }
+    function togglePopupout7() {
+      var popup = document.getElementById("myPopupout7");
+      popup.innerHTML=popout7
+      popup.classList.toggle("show"); // Toggles the 'show' class
+    }
+    function togglePopupout8() {
+      var popup = document.getElementById("myPopupout8");
+      popup.innerHTML=popout8
+      popup.classList.toggle("show"); // Toggles the 'show' class
+    }
+    function togglePopupout9() {
+      var popup = document.getElementById("myPopupout9");
+      popup.innerHTML=popout9
+      popup.classList.toggle("show"); // Toggles the 'show' class
+    }
+    function togglePopupout10() {
+        var popup = document.getElementById("myPopupout10");
+        popup.innerHTML=popout10
+        popup.classList.toggle("show"); // Toggles the 'show' class
+      }
+
+
+
+
+
 
 
 
