@@ -509,102 +509,108 @@ function getPosition()
 }
 
 
-function togglePopupin1() {
+function togglePopupin1() 
+{
   var popup = document.getElementById("myPopupin1");
   popup.innerHTML=popin1
   popup.classList.toggle("show"); // Toggles the 'show' class
 }
-function togglePopupin2() {
+function togglePopupin2() 
+{
     var popup = document.getElementById("myPopupin2");
     popup.innerHTML=popin2
     popup.classList.toggle("show"); // Toggles the 'show' class
-  }
-  function togglePopupin3() {
+}
+
+function togglePopupin3() 
+{
     var popup = document.getElementById("myPopupin3");
     popup.innerHTML=popin3
     popup.classList.toggle("show"); // Toggles the 'show' class
-  }
-  function togglePopupin4() {
+}
+function togglePopupin4() {
     var popup = document.getElementById("myPopupin4");
     popup.innerHTML=popin4
     popup.classList.toggle("show"); // Toggles the 'show' class
   }
-  function togglePopupin5() {
+
+function togglePopupin5() {
     var popup = document.getElementById("myPopupin5");
     popup.innerHTML=popin5
     popup.classList.toggle("show"); // Toggles the 'show' class
   }
-  function togglePopupin6() {
+function togglePopupin6() {
     var popup = document.getElementById("myPopupin6");
     popup.innerHTML=popin6
     popup.classList.toggle("show"); // Toggles the 'show' class
   }
-  function togglePopupin7() {
+function togglePopupin7() {
     var popup = document.getElementById("myPopupin7");
     popup.innerHTML=popin7
     popup.classList.toggle("show"); // Toggles the 'show' class
   }
-  function togglePopupin8() {
+function togglePopupin8() {
     var popup = document.getElementById("myPopupin8");
     popup.innerHTML=popin8
     popup.classList.toggle("show"); // Toggles the 'show' class
   }
-  function togglePopupin9() {
+function togglePopupin9() {
     var popup = document.getElementById("myPopupin9");
     popup.innerHTML=popin9
     popup.classList.toggle("show"); // Toggles the 'show' class
   }
-  function togglePopupin10() {
+function togglePopupin10() {
     var popup = document.getElementById("myPopupin10");
     popup.innerHTML=popin10
     popup.classList.toggle("show"); // Toggles the 'show' class
   }
-  function togglePopupout1() {
+function togglePopupout1() {
     var popup = document.getElementById("myPopupout1");
     popup.innerHTML=popout1
     popup.classList.toggle("show"); // Toggles the 'show' class
   }
-  function togglePopupout2() {
+function togglePopupout2() {
       var popup = document.getElementById("myPopupout2");
       popup.innerHTML=popout2
       popup.classList.toggle("show"); // Toggles the 'show' class
     }
-    function togglePopupout3() {
+function togglePopupout3() {
       var popup = document.getElementById("myPopupout3");
       popup.innerHTML=popout3
       popup.classList.toggle("show"); // Toggles the 'show' class
     }
-    function togglePopupout4() {
+function togglePopupout4() {
       var popup = document.getElementById("myPopupout4");
       popup.innerHTML=popout4
       popup.classList.toggle("show"); // Toggles the 'show' class
     }
-    function togglePopupout5() {
+function togglePopupout5() {
       var popup = document.getElementById("myPopupout5");
       popup.innerHTML=popout5
       popup.classList.toggle("show"); // Toggles the 'show' class
     }
-    function togglePopupout6() {
+function togglePopupout6() {
       var popup = document.getElementById("myPopupout6");
       popup.innerHTML=popout6
       popup.classList.toggle("show"); // Toggles the 'show' class
     }
-    function togglePopupout7() {
+function togglePopupout7() {
       var popup = document.getElementById("myPopupout7");
       popup.innerHTML=popout7
       popup.classList.toggle("show"); // Toggles the 'show' class
     }
-    function togglePopupout8() {
+function togglePopupout8() {
       var popup = document.getElementById("myPopupout8");
       popup.innerHTML=popout8
       popup.classList.toggle("show"); // Toggles the 'show' class
     }
-    function togglePopupout9() {
+function togglePopupout9() {
       var popup = document.getElementById("myPopupout9");
       popup.innerHTML=popout9
       popup.classList.toggle("show"); // Toggles the 'show' class
     }
-    function togglePopupout10() {
+    
+function togglePopupout10() {
         var popup = document.getElementById("myPopupout10");
         popup.innerHTML=popout10
         popup.classList.toggle("show"); // Toggles the 'show' class
