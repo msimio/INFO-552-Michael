@@ -476,31 +476,19 @@ body {
 
 
 
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
 
-.popup .popuptext {
-  visibility: hidden; /* Hidden by default */
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%; /* Position above the container */
-  left: 50%;
-  margin-left: -80px; /* Center the pop-up */
-}
 
-/* Show the popup text when the 'show' class is added */
-.popup .show {
-  visibility: visible;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
