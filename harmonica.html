@@ -68,18 +68,52 @@
 
 
     <h3>Notes</h3>
+    <p>Tap a note to see any bend or overblow options. (Note: * indicates overblow)</p>
     <div id="harmonicagrid">
+        <div style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="3x3" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="2x2" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="2x3" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="1x1" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="1x2" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="1x3" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="1x4" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="1x5" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="1x6" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="1x7" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="1x8" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="1x9" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="1x10" style="display: flex;justify-content: center;align-items: center;"></div>
         <div style="display: flex;justify-content: center;align-items: center;">In</div>
-        <div id="in1" style="display: flex;justify-content: center;align-items: center;">D</div>
-        <div id="in2" style="display: flex;justify-content: center;align-items: center;">G</div>
-        <div id="in3" style="display: flex;justify-content: center;align-items: center;">B</div>
-        <div id="in4" style="display: flex;justify-content: center;align-items: center;">D</div>
-        <div id="in5" style="display: flex;justify-content: center;align-items: center;">F</div>
-        <div id="in6" style="display: flex;justify-content: center;align-items: center;">A</div>
-        <div id="in7" style="display: flex;justify-content: center;align-items: center;">B</div>
-        <div id="in8" style="display: flex;justify-content: center;align-items: center;">D</div>
-        <div id="in9" style="display: flex;justify-content: center;align-items: center;">F</div>
-        <div id="in10" style="display: flex;justify-content: center;align-items: center;">A</div>
+        <div id="in1" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupin1()">D</div>
+        <div id="in2" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupin2()">G</div>
+        <div id="in3" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupin3()">B</div>
+        <div id="in4" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupin4()">D</div>
+        <div id="in5" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupin5()">F</div>
+        <div id="in6" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupin6()">A</div>
+        <div id="in7" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupin7()">B</div>
+        <div id="in8" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupin8()">D</div>
+        <div id="in9" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupin9()">F</div>
+        <div id="in10" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupin10()">A</div>
         <div></div>
         <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">1</div>
         <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">2</div>
@@ -92,16 +126,38 @@
         <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">9</div>
         <div style="background-color: black; color: white; display: flex;justify-content: center;align-items: center;">10</div>
         <div style="display: flex;justify-content: center;align-items: center;">Out</div>
-        <div id="out1" style="display: flex;justify-content: center;align-items: center;">C</div>
-        <div id="out2" style="display: flex;justify-content: center;align-items: center;">E</div>
-        <div id="out3" style="display: flex;justify-content: center;align-items: center;">G</div>
-        <div id="out4" style="display: flex;justify-content: center;align-items: center;">C</div>
-        <div id="out5" style="display: flex;justify-content: center;align-items: center;">E</div>
-        <div id="out6" style="display: flex;justify-content: center;align-items: center;">G</div>
-        <div id="out7" style="display: flex;justify-content: center;align-items: center;">C</div>
-        <div id="out8" style="display: flex;justify-content: center;align-items: center;">E</div>
-        <div id="out9" style="display: flex;justify-content: center;align-items: center;">G</div>
-        <div id="out10" style="display: flex;justify-content: center;align-items: center;">C</div>
+        <div id="out1" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupout1()">C</div>
+        <div id="out2" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupout2()">E</div>
+        <div id="out3" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupout3()">G</div>
+        <div id="out4" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupout4()">C</div>
+        <div id="out5" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupout5()">E</div>
+        <div id="out6" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupout6()">G</div>
+        <div id="out7" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupout7()">C</div>
+        <div id="out8" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupout8()">E</div>
+        <div id="out9" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupout9()">G</div>
+        <div id="out10" style="display: flex;justify-content: center;align-items: center;" onclick="togglePopupout10()">C</div>
+        <div style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="ox1" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="ox2" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="ox3" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="ox4" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="ox5" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="ox6" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="ox7" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="ox8" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="ox9" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="ox10" style="display: flex;justify-content: center;align-items: center;"></div>
+        <div style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div  style="display: flex;justify-content: center;align-items: center;"></div>
+        <div id="o2x10" style="display: flex;justify-content: center;align-items: center;"></div>
 
 
 

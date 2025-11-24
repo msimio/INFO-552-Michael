@@ -465,7 +465,7 @@ body {
 #harmonicagrid{
   display: grid;
   grid-template-columns: repeat(11, 1fr);
-  grid-template-rows: repeat(3, minmax(50px, auto));
+  grid-template-rows: repeat(8, minmax(50px, auto));
   row-gap: 8px; /* Sets a 20px gap between rows */
  
   

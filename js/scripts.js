@@ -65,28 +65,38 @@ function calculateGains() {
   
 }
 
+var inbend1="Db" 
 
-var popin1 = "works0"
-var popin2 = "works00"
-var popin3 = "works000"
-var popin4 = "works0000"
-var popin5 = "works00000"
-var popin6 = "works00000"
-var popin7 = "works0000"
-var popin8 = "works000"
-var popin9 = "works00"
-var popin10 = "works0"
+var inbend21="F" 
+var inbend22="Gb" 
 
-var popout1 = "works0"
-var popout2 = "works00"
-var popout3 = "works000"
-var popout4 = "works0000"
-var popout5 = "works00000"
-var popout6 = "works00000"
-var popout7 = "works0000"
-var popout8 = "works000"
-var popout9 = "works00"
-var popout10 = "works0"
+var inbend31="Ab" 
+var inbend32="A" 
+var inbend33="Bb" 
+
+var inbend41="Db"
+
+
+
+var inbend61="Ab"
+var inbend71="Db*"
+
+var inbend91="Ab*"
+var inbend101="Db*"
+
+var outbend1="Eb*"
+
+
+var outbend41="Eb*"
+var outbend51="Gb*"
+var outbend61="Bb*"
+
+var outbend81="Eb"
+var outbend91="Gb"
+var outbend101="B"
+var outbend102="Bb"
+
+
 
 function getPosition()
 {
@@ -123,6 +133,29 @@ function getPosition()
         in8="B"
         in9="D"
         in10="F#"
+
+        inbend1="A#" 
+        inbend21="D#" 
+        inbend22="D" 
+        inbend31="G" 
+        inbend32="F#" 
+        inbend33="F" 
+        inbend41="A#"
+        inbend61="F"
+        inbend71="C#*"
+        inbend91="F*"
+        inbend101="C#*"
+
+        outbend1="C*"
+        outbend41="C*"
+        outbend51="D#*"
+        outbend61="G*"
+        outbend81="C"
+        outbend91="D#"
+        outbend101="G#"
+        outbend102="G"
+
+
     }
     else if(dropid==1)
     {
@@ -153,6 +186,27 @@ function getPosition()
         in9="Eb"
         in10="G"
 
+        inbend1="B" 
+        inbend21="E" 
+        inbend22="Eb" 
+        inbend31="Ab" 
+        inbend32="G" 
+        inbend33="Gb" 
+        inbend41="B"
+        inbend61="Gb"
+        inbend71="B*"
+        inbend91="Gb*"
+        inbend101="B*"
+
+        outbend1="Db*"
+        outbend41="Db*"
+        outbend51="E*"
+        outbend61="Ab*"
+        outbend81="Db"
+        outbend91="E"
+        outbend101="A"
+        outbend102="Ab"
+
     }
     else if(dropid==2)
     {
@@ -182,6 +236,27 @@ function getPosition()
         in8="Db"
         in9="E"
         in10="Ab"
+
+        inbend1="C" 
+        inbend21="F" 
+        inbend22="E" 
+        inbend31="A" 
+        inbend32="G#" 
+        inbend33="G" 
+        inbend41="C"
+        inbend61="G"
+        inbend71="C*"
+        inbend91="G*"
+        inbend101="C*"
+
+        outbend1="D*"
+        outbend41="D*"
+        outbend51="F*"
+        outbend61="A*"
+        outbend81="D"
+        outbend91="F"
+        outbend101="A"
+        outbend102="A#"
 
     }
     else if(dropid==3)
@@ -219,6 +294,27 @@ function getPosition()
         in8="D"
         in9="F"
         in10="A"
+
+        inbend1="Db" 
+        inbend21="Gb" 
+        inbend22="F" 
+        inbend31="Bb" 
+        inbend32="A" 
+        inbend33="Ab" 
+        inbend41="Db"
+        inbend61="Ab"
+        inbend71="Db*"
+        inbend91="Ab*"
+        inbend101="Db*"
+
+        outbend1="Eb*"
+        outbend41="Eb*"
+        outbend51="Gb*"
+        outbend61="Bb*"
+        outbend81="Eb"
+        outbend91="Gb"
+        outbend101="Bb"
+        outbend102="B"
         
 
     }
@@ -251,6 +347,27 @@ function getPosition()
         in9="F#"
         in10="Bb"
 
+        inbend1="D" 
+        inbend21="G" 
+        inbend22="Gb" 
+        inbend31="B" 
+        inbend32="Bb" 
+        inbend33="A" 
+        inbend41="D"
+        inbend61="A"
+        inbend71="D*"
+        inbend91="A*"
+        inbend101="D*"
+
+        outbend1="E*"
+        outbend41="E*"
+        outbend51="G*"
+        outbend61="B*"
+        outbend81="E"
+        outbend91="G"
+        outbend101="C"
+        outbend102="B"
+
     }
     else if(dropid==5)
     {
@@ -280,6 +397,27 @@ function getPosition()
         in8="E"
         in9="G"
         in10="B"
+
+        inbend1="A#" 
+        inbend21="D#" 
+        inbend22="D" 
+        inbend31="G" 
+        inbend32="F#" 
+        inbend33="F" 
+        inbend41="A#"
+        inbend61="F"
+        inbend71="C#*"
+        inbend91="F*"
+        inbend101="C#*"
+
+        outbend1="C*"
+        outbend41="C*"
+        outbend51="D#*"
+        outbend61="G*"
+        outbend81="C"
+        outbend91="D#"
+        outbend101="G#"
+        outbend102="G"
 
     }
     else if(dropid==6)
@@ -311,6 +449,27 @@ function getPosition()
         in9="Ab"
         in10="C"
 
+        inbend1="E" 
+        inbend21="A" 
+        inbend22="Ab" 
+        inbend31="Db" 
+        inbend32="C" 
+        inbend33="B" 
+        inbend41="E"
+        inbend61="B"
+        inbend71="E*"
+        inbend91="B*"
+        inbend101="E*"
+
+        outbend1="Gb*"
+        outbend41="Gb*"
+        outbend51="A*"
+        outbend61="Db*"
+        outbend81="Gb"
+        outbend91="A"
+        outbend101="D"
+        outbend102="Db"
+
     }
     else if(dropid==7)
     {
@@ -340,6 +499,27 @@ function getPosition()
         in8="F#"
         in9="A"
         in10="Db"
+
+        inbend1="F" 
+        inbend21="A#" 
+        inbend22="A" 
+        inbend31="D" 
+        inbend32="C#" 
+        inbend33="C" 
+        inbend41="F"
+        inbend61="C"
+        inbend71="F*"
+        inbend91="C*"
+        inbend101="F*"
+
+        outbend1="G*"
+        outbend41="G*"
+        outbend51="A#*"
+        outbend61="D*"
+        outbend81="G"
+        outbend91="A#"
+        outbend101="D#"
+        outbend102="D"
 
     }
     else if(dropid==8)
@@ -371,6 +551,27 @@ function getPosition()
         in9="Bb"
         in10="D"
 
+        inbend1="Gb" 
+        inbend21="B" 
+        inbend22="Bb" 
+        inbend31="Eb" 
+        inbend32="D" 
+        inbend33="Db" 
+        inbend41="Gb"
+        inbend61="Db"
+        inbend71="Gb*"
+        inbend91="Db*"
+        inbend101="Gb*"
+
+        outbend1="Ab*"
+        outbend41="Ab*"
+        outbend51="B*"
+        outbend61="Eb*"
+        outbend81="Ab"
+        outbend91="B"
+        outbend101="E"
+        outbend102="Eb"
+
     }
     else if(dropid==9)
     {
@@ -400,6 +601,27 @@ function getPosition()
         in8="Ab"
         in9="B"
         in10="Eb"
+
+        inbend1="G" 
+        inbend21="C" 
+        inbend22="B" 
+        inbend31="E" 
+        inbend32="D#" 
+        inbend33="D" 
+        inbend41="G"
+        inbend61="D"
+        inbend71="G*"
+        inbend91="D*"
+        inbend101="G*"
+
+        outbend1="A*"
+        outbend41="A*"
+        outbend51="C*"
+        outbend61="E*"
+        outbend81="A"
+        outbend91="C"
+        outbend101="F"
+        outbend102="E"
 
     }
     else if(dropid==10)
@@ -431,6 +653,27 @@ function getPosition()
         in9="C"
         in10="E"
 
+        inbend1="G#" 
+        inbend21="C#" 
+        inbend22="C" 
+        inbend31="F" 
+        inbend32="E" 
+        inbend33="D#" 
+        inbend41="G#"
+        inbend61="D#"
+        inbend71="G#*"
+        inbend91="D#*"
+        inbend101="G#*"
+
+        outbend1="A#*"
+        outbend41="A#*"
+        outbend51="C#*"
+        outbend61="F*"
+        outbend81="A#"
+        outbend91="C#"
+        outbend101="F#"
+        outbend102="F"
+
     }
     else if(dropid==11)
     {
@@ -460,6 +703,28 @@ function getPosition()
         in8="Bb"
         in9="Db"
         in10="F"
+
+
+        inbend1="A" 
+        inbend21="D" 
+        inbend22="Db" 
+        inbend31="Gb" 
+        inbend32="F" 
+        inbend33="E" 
+        inbend41="A"
+        inbend61="E"
+        inbend71="A*"
+        inbend91="E*"
+        inbend101="A*"
+
+        outbend1="B*"
+        outbend41="B*"
+        outbend51="D*"
+        outbend61="Gb*"
+        outbend81="B"
+        outbend91="D"
+        outbend101="G"
+        outbend102="Gb"
     }
     
 
@@ -506,6 +771,398 @@ function getPosition()
 
 
 }
+
+var tog1=1;
+var tog2=1;
+var tog3=1;
+var tog4=1;
+var tog5=1;
+var tog6=1;
+var tog7=1;
+var tog8=1;
+var tog9=1;
+var tog10=1;
+
+var tog10=1;
+var tog11=1;
+var tog12=1;
+var tog13=1;
+var tog14=1;
+var tog15=1;
+var tog16=1;
+var tog17=1;
+var tog18=1;
+var tog19=1;
+var tog20=1;
+
+
+
+
+function togglePopupin1() 
+{    
+    if(tog1==0)
+    {
+        document.getElementById("1x1").innerHTML = "";
+        
+
+        
+        tog1=1;
+    }
+    else
+    {
+        document.getElementById("1x1").innerHTML = inbend1;
+        
+        
+        tog1=0;
+    }
+}
+
+function togglePopupin2() 
+{
+    if(tog2==0)
+    {
+        
+        document.getElementById("1x2").innerHTML = "";
+       
+        document.getElementById("2x2").innerHTML = "";
+        
+
+   
+        tog2=1;
+    }
+    else
+    {
+       
+        document.getElementById("1x2").innerHTML = inbend21;
+       
+
+        document.getElementById("2x2").innerHTML = inbend22;
+        
+
+       
+        tog2=0;
+    }
+}
+
+function togglePopupin3() 
+{
+    if(tog3==0)
+    {
+        
+        document.getElementById("1x3").innerHTML = "";
+       
+        document.getElementById("2x3").innerHTML = "";
+        document.getElementById("3x3").innerHTML = "";
+
+       
+        tog3=1;
+    }
+    else
+    {
+        
+        document.getElementById("1x3").innerHTML = inbend31;
+       
+
+       
+        document.getElementById("2x3").innerHTML = inbend32;
+        document.getElementById("3x3").innerHTML = inbend33;
+
+       
+        tog3=0;
+    }
+}
+function togglePopupin4() {
+    if(tog4==0)
+    {
+        
+        document.getElementById("1x4").innerHTML = "";
+       
+       
+       
+        tog4=1;
+    }
+    else
+    {
+       
+        document.getElementById("1x4").innerHTML = inbend41;
+        
+       
+        tog4=0;
+    }
+  }
+
+function togglePopupin5() {
+    if(tog5==0)
+    {
+        
+        
+
+       
+        
+        tog5=1;
+    }
+    else
+    {
+        
+        
+        tog5=0;
+    }
+  }
+function togglePopupin6() {
+    if(tog6==0)
+    {
+        
+        document.getElementById("1x6").innerHTML = "";
+        
+
+        
+        
+        tog6=1;
+    }
+    else
+    {
+        
+        document.getElementById("1x6").innerHTML = inbend61;
+        
+        
+        tog6=0;
+    }
+  }
+function togglePopupin7() {
+    if(tog7==0)
+    {
+        
+        document.getElementById("1x7").innerHTML = "";
+        
+
+        
+       
+        tog7=1;
+    }
+    else
+    {
+       
+        document.getElementById("1x7").innerHTML = inbend71;
+       
+        tog7=0;
+    }
+  }
+function togglePopupin8() {
+    if(tog8==0)
+    {
+        
+        
+        
+        tog8=1;
+    }
+    else
+    {
+        
+        
+        tog8=0;
+    }
+  }
+function togglePopupin9() {
+    if(tog9==0)
+    {
+       
+        document.getElementById("1x9").innerHTML = "";
+        
+        
+        tog9=1;
+    }
+    else
+    {
+       
+        document.getElementById("1x9").innerHTML = inbend91;
+       
+       
+        tog9=0;
+    }
+  }
+function togglePopupin10() {
+    if(tog10==0)
+    {
+       
+        document.getElementById("1x10").innerHTML = "";
+       
+        
+        tog10=1;
+    }
+    else
+    {
+       
+        document.getElementById("1x10").innerHTML = inbend101;
+
+    
+        tog10=0;
+    }
+  }
+function togglePopupout1() {
+    if(tog11==0)
+    {
+
+
+        document.getElementById("ox1").innerHTML = "";
+  
+        tog11=1;
+    }
+    else
+    {
+     
+
+        document.getElementById("ox1").innerHTML = outbend1;
+        
+        tog11=0;
+    }
+  }
+function togglePopupout2() {
+    if(tog12==0)
+    {
+        
+        
+        document.getElementById("ox2").innerHTML = "";
+        
+        tog12=1;
+    }
+    else
+    {
+        
+        tog12=0;
+    }
+    }
+function togglePopupout3() {
+    if(tog13==0)
+    {
+        
+        
+        document.getElementById("ox3").innerHTML = "";
+       
+        tog13=1;
+    }
+    else
+    {
+        
+        tog13=0;
+    }
+    }
+function togglePopupout4() {
+    if(tog14==0)
+    {
+        
+        document.getElementById("ox4").innerHTML = "";
+        
+        tog14=1;
+    }
+    else
+    {
+        
+        document.getElementById("ox4").innerHTML = outbend41;
+       
+        tog14=0;
+    }
+    }
+function togglePopupout5() {
+    if(tog15==0)
+    {
+        
+        document.getElementById("ox5").innerHTML = "";
+        
+        tog15=1;
+    }
+    else
+    {
+        
+        document.getElementById("ox5").innerHTML = outbend51;
+        
+        tog15=0;
+    }
+    }
+function togglePopupout6() {
+    if(tog16==0)
+    {
+        
+        document.getElementById("ox6").innerHTML = "";
+        
+        tog16=1;
+    }
+    else
+    {
+        
+        document.getElementById("ox6").innerHTML = outbend61;
+       
+        tog16=0;
+    }
+    }
+function togglePopupout7() {
+    if(tog17==0)
+    {
+        
+        document.getElementById("ox7").innerHTML = "";
+        
+        tog17=1;
+    }
+    else
+    {
+        
+        tog17=0;
+    }
+    }
+function togglePopupout8() {
+    if(tog18==0)
+    {
+        
+        document.getElementById("ox8").innerHTML = "";
+        
+        tog18=1;
+    }
+    else
+    {
+        
+        document.getElementById("ox8").innerHTML = outbend81;
+        
+        tog18=0;
+    }
+    }
+function togglePopupout9() {
+    if(tog19==0)
+    {
+        
+        document.getElementById("ox9").innerHTML = "";
+        
+        tog19=1;
+    }
+    else
+    {
+        
+        document.getElementById("ox9").innerHTML = outbend91;
+        
+        tog19=0;
+    }
+    }
+    
+function togglePopupout10() 
+{
+    if(tog20==0)
+    {
+        
+        document.getElementById("ox10").innerHTML = "";
+        document.getElementById("o2x10").innerHTML = "";
+        tog20=1;
+    }
+    else
+    {
+        
+        document.getElementById("ox10").innerHTML = outbend101;
+        document.getElementById("o2x10").innerHTML = outbend102;
+        tog20=0;
+    }
+      }
+
+
+
+
+
 
 
 
