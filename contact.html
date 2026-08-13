@@ -15,9 +15,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
-<body style="margin: 0;font-family: Noto Sans, sans-serif;text-align:center; padding: 0; background-color: black; cursor: url('img/cactus-noto-32.png'), auto; ">
+<div id="cursorcanvas">
+    <canvas id="canvas"></canvas>
 
-    <header style="background-color: black; margin: 0;" class="hftitles">
+<body style="margin: 0;font-family: Noto Sans, sans-serif;text-align:center; padding: 0; background-color: black; cursor: url('img/cactus-noto-32.png'), auto;">
+
+    <header style="background-color: black; margin: 0; opacity: .7;" class="hftitles">
         <section style="background-color: black;" id="nav-container">
 
             <section id="logo">
@@ -49,7 +52,7 @@
         </nav>
     </header>
 
-    <section style="background: linear-gradient(-45deg, #000000, #332d3b, #445454, #232927); background-size: 400% 400%; animation: gradient 15s ease infinite; margin: 0; height: 100vh;">
+    <section style="position: relative; height: 100%;">
     
 
     
@@ -82,8 +85,9 @@
 
 
 
-    <footer>
+    <footer id="navi3">
         <p>Designed by Michael Simio</p>
+        <p>Cursor by <a href="https://www.framer.com/@kevin-levron/" target="_blank" id="navi3">Kevin Levron</a></p>
     </footer>
 
 
@@ -100,8 +104,11 @@
 
 
 
-<script src="js/scripts-dist.js"></script>
+<script type="module" src="js/scripts-dist.js"></script>
+
 
 </body>
+
+</div>
 
 </html>

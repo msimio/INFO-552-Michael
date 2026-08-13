@@ -15,8 +15,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
-<body style="font-family: Noto Sans, sans-serif;text-align:center; cursor: url('img/cactus-noto-32.png'), auto; background: linear-gradient(-45deg, #b6aaef, #b0a7d8, #9ed3e6, #90bcb2); background-size: 400% 400%; animation: gradient 15s ease infinite;">
-    <header style="background-color: black; margin: 0;" class="hftitles">
+<div id="cursorcanvas">
+    <canvas id="canvas"></canvas>
+
+<body style="font-family: Noto Sans, sans-serif;text-align:center;">
+    <header style="background-color: black; opacity: .7; margin: 0;" class="hftitles">
         <section style="background-color: black;" id="nav-container">
             <section id="logo">
                 <a href="index.html">    
@@ -47,7 +50,7 @@
 
 
     
-    <main class="appcontainer">
+    <main class="appcontainer" style="position: relative; height: 100%;">
 
 
     <h1 id="neon1">Blog</h1>
@@ -56,7 +59,7 @@
     <div class="blogcontainer">
         
 
-        <div class="postcontainer"     style="padding: 8px; background-color: white; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <div class="postcontainer"     style="padding: 8px; background-color: rgb(225, 167, 251, 0.75); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             <h3>Post 1</h3>
             <p style="text-align: left; text-indent: 3em;">Text here</p>
         </div>
@@ -65,7 +68,7 @@
     <div class="blogcontainer">
        
 
-        <div class="postcontainer"     style="padding: 8px; background-color: white; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <div class="postcontainer"     style="padding: 8px; background-color: rgb(159, 246, 156, 0.75); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             <h3>Post 2</h3>
             <p style="text-align: left; text-indent: 3em;">Text here</p>
         </div>
@@ -74,7 +77,7 @@
     <div class="blogcontainer2">
        
 
-        <div class="postcontainer"     style="padding: 8px; background-color: white; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <div class="postcontainer"     style="padding: 8px; background-color: rgba(138, 190, 245, 0.75); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             <h3>Post 3</h3>
             <p style="text-align: left; text-indent: 3em;">Text here</p>
            
@@ -85,7 +88,7 @@
     <div class="blogcontainer2">
        
 
-        <div class="postcontainer"     style="padding: 8px; background-color: white; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <div class="postcontainer"     style="padding: 8px; background-color: rgb(248, 141, 141, 0.75); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             <h3>Post 4</h3>
             <p style="text-align: left; text-indent: 3em;">Text here</p>
             
@@ -112,14 +115,18 @@
 
 
 
-    <footer>
+    <footer id="navi3">
         <p>Designed by Michael Simio</p>
+        <p>Cursor by <a href="https://www.framer.com/@kevin-levron/" target="_blank" id="navi3">Kevin Levron</a></p>
     </footer>
 
  
 
-<script src="js/scripts-dist.js"></script>
+<script type="module" src="js/scripts-dist.js"></script>
+
 
 </body>
+
+</div>
 
 </html>
