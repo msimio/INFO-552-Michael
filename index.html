@@ -15,7 +15,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
-<body style="font-family: Noto Sans, sans-serif;text-align:center; background-color: black; cursor: url('img/cactus-noto-32.png'), auto;">
+<div id="cursorcanvas">
+    <canvas id="canvas"></canvas>
+
+<body style="font-family: Noto Sans, sans-serif;text-align:center; background-color: black;">
     <header style="background-color: black; margin: 0;" class="hftitles">
         <section style="background-color: black;" id="nav-container">
             <section id="logo">
@@ -45,7 +48,7 @@
         </nav>
     </header>
 
-    <main class="homecontainer">
+    <main class="homecontainer" style="position: relative; height: 100%;">
             <img style="margin: 0; width: 90%;" src="img/headshot.jpg" alt="Headshot" id="hero">
             <div class="fade-in-text">
             <p style="background-color: black; color: whitesmoke; margin: 0; padding: 20px; font-weight: 200">I am a tech philosopher who is passionate about balancing the role of technology in our daily lives. I believe that technology is great but we need to be careful with how we implement it to make sure we are creating the best user experience. I have developed some mobile apps and I am continuing to dive deeper into the field with my education. Take a look around my site to see some of the projects I am working on!</p>
@@ -68,14 +71,18 @@
 
     <footer>
         <p>Designed by Michael Simio</p>
+        <p>Cursor by Kevin Levron (In Progress)</p>
         
             
       
         
     </footer>
 
-    <script src="js/scripts-dist.js"></script>
+    <script type="module" src="js/scripts-dist.js"></script>
+
     
 </body>
+
+</div>
 
 </html>
