@@ -50,6 +50,10 @@ const input3 = document.getElementById("myInput3");
 
 
 
+
+
+
+
 function calculateGains() {
 
   const value1 = input1.value;
